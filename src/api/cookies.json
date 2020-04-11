@@ -6,9 +6,9 @@
     "partner": 0,
     "bonus": "시작시 체력 +10",
     "health": "90~276",
-    "skill": "none",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "skill": "없음",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -19,8 +19,8 @@
     "bonus": "분홍곰젤리 점수 +360",
     "health": "88~250",
     "skill": "캔디젤리 출현",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -31,8 +31,8 @@
     "bonus": "포켓딸기 쿨타임 -5%",
     "health": "120~262",
     "skill": "분홍곰젤리 점수 +360",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -43,8 +43,8 @@
     "bonus": "아이템 지속시간 +20%",
     "health": "120~228",
     "skill": "이동속도 증가",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -68,7 +68,7 @@
     "health": "158~291",
     "skill": "자력",
     "candySkill": "빛 강림",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -79,8 +79,8 @@
     "bonus": "광속 질주 시간 +20%",
     "health": "170~308",
     "skill": "신성한 돌진",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -91,8 +91,8 @@
     "bonus": "장애물 파괴점수 +1,200점",
     "health": "154~276",
     "skill": "신성한 돌진",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -104,7 +104,7 @@
     "health": "152~306",
     "skill": "케틀벨 던지기",
     "candySkill": "거대 덤벨 던지기",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -116,7 +116,7 @@
     "health": "130~270",
     "skill": "슬라이드-업",
     "candySkill": "불꽃 연주",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -127,7 +127,7 @@
     "bonus": "시작시 체력 +15",
     "health": "104~228",
     "skill": "소량의 체력으로 부활 1~3회",
-    "candySkill": "none",
+    "candySkill": "없음",
     "unlockCondition": "떼탈출 에피소드1 스테이지 1-4 도달",
     "imageURL": "cookie.png"
   },
@@ -151,7 +151,7 @@
     "bonus": "물고기젤리 +600점",
     "health": "150~286",
     "skill": "비행기 탑승",
-    "candySkill": "none",
+    "candySkill": "없음",
     "unlockCondition": "떼탈출 에피소드1 스테이지 3-2 도달",
     "imageURL": "cookie.png"
   },
@@ -199,7 +199,7 @@
     "bonus": "장매물 통과 점수 +2,400점",
     "health": "130~284",
     "skill": "박쥐 변신",
-    "candySkill": "none",
+    "candySkill": "없음",
     "unlockCondition": "랜드5-1 도달",
     "imageURL": "cookie.png"
   },
@@ -211,7 +211,7 @@
     "bonus": "황금초대장 출현 (99코인)",
     "health": "141~274",
     "skill": "코인폭죽 파티",
-    "candySkill": "none",
+    "candySkill": "없음",
     "unlockCondition": "크리스탈 990개로 구매",
     "imageURL": "cookie.png"
   },
@@ -223,8 +223,8 @@
     "bonus": "광속질주시 속도 점수 +250,000점",
     "health": "126~286",
     "skill": "광속질주 강화",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -235,8 +235,8 @@
     "bonus": "공주의 장신구 능력 쿨타임 -5%",
     "health": "126~286",
     "skill": "핑크하트젤리 생성",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -272,7 +272,7 @@
     "health": "160~286",
     "skill": "히어로 변신",
     "candySkill": "민트 에너지 젤리 생성",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -284,7 +284,7 @@
     "health": "166~294",
     "skill": "명상",
     "candySkill": "수행자의 길",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -403,7 +403,7 @@
     "bonus": "왕코인꽃 출현 확률 증가",
     "health": "155~280",
     "skill": "바이올린 연주",
-    "candySkill": "none",
+    "candySkill": "없음",
     "unlockCondition": "크리스탈 1990개로 구매",
     "imageURL": "cookie.png"
   },
@@ -427,8 +427,8 @@
     "bonus": "메이플시럽젤리 점수 +240점",
     "health": "146~260",
     "skill": "파닥파닥",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -439,8 +439,8 @@
     "bonus": "시작시 체력 +15",
     "health": "146~262",
     "skill": "바이크 질주",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -487,7 +487,7 @@
     "bonus": "고래 소환 시간 +0.5초",
     "health": "166~294",
     "skill": "고래 타기",
-    "candySkill": "none",
+    "candySkill": "없음",
     "unlockCondition": "떼탈출 에피소드1 스테이지 2-9 도달",
     "imageURL": "cookie.png"
   },
@@ -512,7 +512,7 @@
     "health": "166~300",
     "skill": "그래피티",
     "candySkill": "프로 그래피티",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -524,7 +524,7 @@
     "health": "176~302",
     "skill": "테니스",
     "candySkill": "파워 테니스",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -608,7 +608,7 @@
     "health": "175~301",
     "skill": "아이스하키",
     "candySkill": "무지개 드리블",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -620,7 +620,7 @@
     "health": "166~292",
     "skill": "하트 레이저건",
     "candySkill": "하트 레이저건 강화",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -632,7 +632,7 @@
     "health": "188~314",
     "skill": "아보카도 모루질",
     "candySkill": "힘찬 망치질",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -692,7 +692,7 @@
     "health": "169~295",
     "skill": "원혼 다루기",
     "candySkill": "새로운 원혼",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1028,7 +1028,7 @@
     "health": "170~296",
     "skill": "생일 축하 행진",
     "candySkill": "생일 선물상자",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1100,7 +1100,7 @@
     "health": "169~295",
     "skill": "라즈베리 검술",
     "candySkill": "라즈베리 검술 강화",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1124,7 +1124,7 @@
     "health": "174~300",
     "skill": "채소 좋아",
     "candySkill": "미니 채소",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1136,7 +1136,7 @@
     "health": "174~300",
     "skill": "샌드위치 주문서",
     "candySkill": "고급 샌드위치 주문서",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1148,7 +1148,7 @@
     "health": "176~302",
     "skill": "망고 카누",
     "candySkill": "망고 물고기",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1160,7 +1160,7 @@
     "health": "258~330",
     "skill": "꿈 마법",
     "candySkill": "별 마법",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1168,7 +1168,7 @@
     "name": "바람궁수 쿠키",
     "grade": "Legendary",
     "partner": -1,
-    "bonus": "none",
+    "bonus": "없음",
     "health": "248~320",
     "skill": "바람 질주",
     "candySkill": "바람궁수 각성",
@@ -1180,11 +1180,11 @@
     "name": "바다요정 쿠키",
     "grade": "Legendary",
     "partner": -1,
-    "bonus": "none",
+    "bonus": "없음",
     "health": "254~326",
     "skill": "파도 질주",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1192,11 +1192,11 @@
     "name": "불꽃정령 쿠키",
     "grade": "Legendary",
     "partner": -1,
-    "bonus": "none",
+    "bonus": "없음",
     "health": "168~240",
     "skill": "불꽃 질주",
     "candySkill": "불꽃 에너지 강화",
-    "unlockCondition": "none",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1204,11 +1204,11 @@
     "name": "어둠마녀 쿠키",
     "grade": "Legendary",
     "partner": -1,
-    "bonus": "none",
+    "bonus": "없음",
     "health": "108~180",
     "skill": "어둠 마법",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1216,11 +1216,11 @@
     "name": "천년나무 쿠키",
     "grade": "Legendary",
     "partner": -1,
-    "bonus": "none",
+    "bonus": "없음",
     "health": "263~335",
     "skill": "시간 마법진",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1231,8 +1231,8 @@
     "bonus": "불꽃젤리 점수 +75,000점",
     "health": "232~330",
     "skill": "드래곤 검술",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1243,8 +1243,8 @@
     "bonus": "색색방울젤리 점수 +6,600점",
     "health": "183~317",
     "skill": "풍선 비행",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   },
   {
@@ -1255,8 +1255,8 @@
     "bonus": "꽃젤리 점수 +32,000점",
     "health": "183~317",
     "skill": "꽃 가꾸기",
-    "candySkill": "none",
-    "unlockCondition": "none",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
     "imageURL": "cookie.png"
   }
 ]

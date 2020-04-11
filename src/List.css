@@ -1,0 +1,13 @@
+.itemTitle {
+  color: #CE6D39;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.itemList {
+  min-width: 1440px;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}

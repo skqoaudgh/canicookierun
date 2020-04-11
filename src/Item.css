@@ -1,0 +1,78 @@
+.listItem {
+  display: list-item;
+  list-style: none;
+  padding: 0.5rem;
+  width: 28rem;
+}
+
+li .item {
+  display: flex;
+  padding: 1rem;
+  margin: 0.5rem;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 6px;
+  border-radius: 0.5rem;
+}
+
+.imageWrapper {
+  min-width: 5rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(255, 238, 226);
+  border-radius: 9999px;
+  margin: 0px 0.5rem 0px 0px;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 200ms ease-out 0s;
+}
+
+.imageWrapper img.loaded {
+  opacity: 1;
+}
+
+.infoWrapper {
+  margin-right: auto;
+}
+
+.info-title {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: baseline;
+  color: #CE6D39;
+  font-weight: 700;
+}
+
+.info-title span {
+  background-color: #F17F42;
+  color: white;
+  border-radius: 9999px;
+  width: 4rem;
+  height: 1.5rem;
+  font-size: 12px;
+  font-weight: 550;
+  text-align: center;
+  padding: auto;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.info-title strong {
+  font-size: 13px;
+  margin-left: 0.5rem;
+  color: #f1b18f;
+}
+
+.info-detail {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  text-align: left;
+  color: #aa582b;
+}
