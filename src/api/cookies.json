@@ -9,7 +9,7 @@
     "skill": "없음",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "brave.png"
   },
   {
     "id": 1,
@@ -21,7 +21,7 @@
     "skill": "캔디젤리 출현",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "clear.png"
   },
   {
     "id": 2,
@@ -33,7 +33,7 @@
     "skill": "분홍곰젤리 점수 +360",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "strawberry.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
     "skill": "이동속도 증가",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "boarder.png"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
     "skill": "체리 폭탄 던지기",
     "candySkill": "왕체리폭탄 투척",
     "unlockCondition": "떼탈출 에피소드1 스테이지 1-2 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "cherry.png"
   },
   {
     "id": 5,
@@ -69,7 +69,7 @@
     "skill": "자력",
     "candySkill": "빛 강림",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "angel.png"
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
     "skill": "신성한 돌진",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "pista.png"
   },
   {
     "id": 7,
@@ -93,7 +93,7 @@
     "skill": "신성한 돌진",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "bubble.png"
   },
   {
     "id": 8,
@@ -105,7 +105,7 @@
     "skill": "케틀벨 던지기",
     "candySkill": "거대 덤벨 던지기",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "muscle.png"
   },
   {
     "id": 9,
@@ -117,7 +117,7 @@
     "skill": "슬라이드-업",
     "candySkill": "불꽃 연주",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "rockstar.png"
   },
   {
     "id": 10,
@@ -129,7 +129,7 @@
     "skill": "소량의 체력으로 부활 1~3회",
     "candySkill": "없음",
     "unlockCondition": "떼탈출 에피소드1 스테이지 1-4 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "zombie.png"
   },
   {
     "id": 11,
@@ -141,7 +141,7 @@
     "skill": "서핑",
     "candySkill": "신나는 서핑",
     "unlockCondition": "떼탈출 에피소드1 스테이지 2-8 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "soda.png"
   },
   {
     "id": 12,
@@ -153,7 +153,7 @@
     "skill": "비행기 탑승",
     "candySkill": "없음",
     "unlockCondition": "떼탈출 에피소드1 스테이지 3-2 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "pilot.png"
   },
   {
     "id": 13,
@@ -165,7 +165,7 @@
     "skill": "악마 변신",
     "candySkill": "최후의 악마 질주",
     "unlockCondition": "떼탈출 에피소드1 스테이지 3-5 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "devil.png"
   },
   {
     "id": 14,
@@ -177,7 +177,7 @@
     "skill": "표창 던지기",
     "candySkill": "대쉬",
     "unlockCondition": "랜드3 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "ninja.png"
   },
   {
     "id": 15,
@@ -189,7 +189,7 @@
     "skill": "연금술",
     "candySkill": "무지개 연금술",
     "unlockCondition": "랜드4-2 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "gold.png"
   },
   {
     "id": 16,
@@ -201,7 +201,7 @@
     "skill": "박쥐 변신",
     "candySkill": "없음",
     "unlockCondition": "랜드5-1 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "vampire.png"
   },
   {
     "id": 17,
@@ -213,7 +213,7 @@
     "skill": "코인폭죽 파티",
     "candySkill": "없음",
     "unlockCondition": "크리스탈 990개로 구매",
-    "imageURL": "cookie.png"
+    "imageURL": "cheese.png"
   },
   {
     "id": 18,
@@ -225,7 +225,7 @@
     "skill": "광속질주 강화",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "warrior.png"
   },
   {
     "id": 19,
@@ -237,7 +237,7 @@
     "skill": "핑크하트젤리 생성",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "prin.png"
   },
   {
     "id": 20,
@@ -249,7 +249,7 @@
     "skill": "치어리더 응원단",
     "candySkill": "치어리딩 점수",
     "unlockCondition": "히어로맛 쿠키의 기억에서 별 30개 획득",
-    "imageURL": "cookie.png"
+    "imageURL": "cheer.png"
   },
   {
     "id": 21,
@@ -261,7 +261,7 @@
     "skill": "도넛도넛 빔",
     "candySkill": "도넛도넛 질주",
     "unlockCondition": "딸기맛 쿠키의 호감도 200 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "ailen.png"
   },
   {
     "id": 22,
@@ -273,7 +273,7 @@
     "skill": "히어로 변신",
     "candySkill": "민트 에너지 젤리 생성",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "hero.png"
   },
   {
     "id": 23,
@@ -285,7 +285,7 @@
     "skill": "명상",
     "candySkill": "수행자의 길",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "yoga.png"
   },
   {
     "id": 24,
@@ -297,7 +297,7 @@
     "skill": "팝콘 파티",
     "candySkill": "무지개 팝콘",
     "unlockCondition": "마법사탕 축복 5개 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "popcorn.png"
   },
   {
     "id": 25,
@@ -309,7 +309,7 @@
     "skill": "창 던지기",
     "candySkill": "질주의 창 던지기",
     "unlockCondition": "펫 20종 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "jungle.png"
   },
   {
     "id": 26,
@@ -321,7 +321,7 @@
     "skill": "유령 부활 + 해적선 소환",
     "candySkill": "유령 폭탄",
     "unlockCondition": "떼탈출 에피소드1 스테이지 1-5 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "pirate.png"
   },
   {
     "id": 27,
@@ -333,7 +333,7 @@
     "skill": "연기 점수",
     "candySkill": "완벽한 연기 점수",
     "unlockCondition": "떼탈출 에피소드1 스테이지 2-6 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "figure.png"
   },
   {
     "id": 28,
@@ -345,7 +345,7 @@
     "skill": "웨어울프 변신",
     "candySkill": "강화 웨어울프 변신",
     "unlockCondition": "떼탈출 에피소드1 스테이지 4-1 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "warewolf.png"
   },
   {
     "id": 29,
@@ -357,7 +357,7 @@
     "skill": "구미호 변신",
     "candySkill": "구미호 각성",
     "unlockCondition": "랜드5-2 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "fox.png"
   },
   {
     "id": 30,
@@ -369,7 +369,7 @@
     "skill": "마법 발동",
     "candySkill": "각성 마법",
     "unlockCondition": "랜드6-1 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "magic.png"
   },
   {
     "id": 31,
@@ -381,11 +381,11 @@
     "skill": "눈소환수 소환",
     "candySkill": "왕눈꽃",
     "unlockCondition": "랜드6-2 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "snow.png"
   },
   {
     "id": 32,
-    "name": "다크초코맛 쿠키",
+    "name": "다크초코 쿠키",
     "grade": "Epic",
     "partner": 32,
     "bonus": "암흑결정젤리 점수 +21,000점",
@@ -393,7 +393,7 @@
     "skill": "암흑 검술",
     "candySkill": "암흑번개 검술",
     "unlockCondition": "랜드7 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "darkchoco.png"
   },
   {
     "id": 33,
@@ -405,7 +405,7 @@
     "skill": "바이올린 연주",
     "candySkill": "없음",
     "unlockCondition": "크리스탈 1990개로 구매",
-    "imageURL": "cookie.png"
+    "imageURL": "mintchoco.png"
   },
   {
     "id": 34,
@@ -417,7 +417,7 @@
     "skill": "코코아컵",
     "candySkill": "코코아컵 비행",
     "unlockCondition": "떼탈출 에피소드1 스테이지 2-5 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "cocoa.png"
   },
   {
     "id": 35,
@@ -429,7 +429,7 @@
     "skill": "파닥파닥",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "pancake.png"
   },
   {
     "id": 36,
@@ -441,7 +441,7 @@
     "skill": "바이크 질주",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "kiwi.png"
   },
   {
     "id": 37,
@@ -453,7 +453,7 @@
     "skill": "재배",
     "candySkill": "꽃 피우기",
     "unlockCondition": "떼탈출 에피소드1 스테이지 2-2 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "herb.png"
   },
   {
     "id": 38,
@@ -465,7 +465,7 @@
     "skill": "자력 보호막",
     "candySkill": "요정젤리 생성",
     "unlockCondition": "랜드 2 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "fariry.png"
   },
   {
     "id": 39,
@@ -477,7 +477,7 @@
     "skill": "젤리생성 마법",
     "candySkill": "젤리생성 마법 강화",
     "unlockCondition": "랜드 4-1 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "sucream.png"
   },
   {
     "id": 40,
@@ -489,7 +489,7 @@
     "skill": "고래 타기",
     "candySkill": "없음",
     "unlockCondition": "떼탈출 에피소드1 스테이지 2-9 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "bakcandy.png"
   },
   {
     "id": 41,
@@ -501,7 +501,7 @@
     "skill": "와사비 시럽",
     "candySkill": "강력 와사비 시럽",
     "unlockCondition": "떼탈출 에피소드1 스테이지 1-7 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "drwasabi.png"
   },
   {
     "id": 42,
@@ -513,7 +513,7 @@
     "skill": "그래피티",
     "candySkill": "프로 그래피티",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "mustard.png"
   },
   {
     "id": 43,
@@ -525,7 +525,7 @@
     "skill": "테니스",
     "candySkill": "파워 테니스",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "orange.png"
   },
   {
     "id": 44,
@@ -537,7 +537,7 @@
     "skill": "달토끼 변신",
     "candySkill": "꿀떡 젤리 생성",
     "unlockCondition": "떼탈출 에피소드2 스테이지 1-6 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "moon.png"
   },
   {
     "id": 45,
@@ -549,7 +549,7 @@
     "skill": "씨앗 구슬 발사",
     "candySkill": "씨앗 구슬 발사 강화",
     "unlockCondition": "마법사탕 5개 획득",
-    "imageURL": "cookie.png"
+    "imageURL": "matcha.png"
   },
   {
     "id": 46,
@@ -561,7 +561,7 @@
     "skill": "마카롱 행진",
     "candySkill": "힘찬 마카롱 행진",
     "unlockCondition": "친구 20명 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "macaron.png"
   },
   {
     "id": 47,
@@ -573,7 +573,7 @@
     "skill": "마법의 노래",
     "candySkill": "음표젤리 파티",
     "unlockCondition": "떼탈출 에피소드2 스테이지 1-4 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "poet.png"
   },
   {
     "id": 48,
@@ -585,7 +585,7 @@
     "skill": "스파클링 파티",
     "candySkill": "화려한 스파클링 파티",
     "unlockCondition": "탈출레벨 15 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "sparkling.png"
   },
   {
     "id": 49,
@@ -597,7 +597,7 @@
     "skill": "펭귄 썰매",
     "candySkill": "더 신나는 썰매",
     "unlockCondition": "랜드 6-1에서 3000만점 이상 기록",
-    "imageURL": "cookie.png"
+    "imageURL": "sweetpat.png"
   },
   {
     "id": 50,
@@ -609,7 +609,7 @@
     "skill": "아이스하키",
     "candySkill": "무지개 드리블",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "icecandy.png"
   },
   {
     "id": 51,
@@ -621,7 +621,7 @@
     "skill": "하트 레이저건",
     "candySkill": "하트 레이저건 강화",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "pinkchoco.png"
   },
   {
     "id": 52,
@@ -633,7 +633,7 @@
     "skill": "아보카도 모루질",
     "candySkill": "힘찬 망치질",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "avocado.png"
   },
   {
     "id": 53,
@@ -645,7 +645,7 @@
     "skill": "벚꽃 질주",
     "candySkill": "벚꽃 놀이",
     "unlockCondition": "쿠키 20종 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "cherryblossom.png"
   },
   {
     "id": 54,
@@ -657,7 +657,7 @@
     "skill": "발레 공연",
     "candySkill": "축하의 꽃다발",
     "unlockCondition": "트로피 4000개 획득",
-    "imageURL": "cookie.png"
+    "imageURL": "whipcream.png"
   },
   {
     "id": 55,
@@ -669,7 +669,7 @@
     "skill": "펜싱",
     "candySkill": "빛나는 펜싱",
     "unlockCondition": "보물 5종 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "whitechoco.png"
   },
   {
     "id": 56,
@@ -681,7 +681,7 @@
     "skill": "탐험",
     "candySkill": "신비한 탐험",
     "unlockCondition": "떼탈출 에피소드1 총점 5000만점 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "explorer.png"
   },
   {
     "id": 57,
@@ -693,7 +693,7 @@
     "skill": "원혼 다루기",
     "candySkill": "새로운 원혼",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "blackberry.png"
   },
   {
     "id": 58,
@@ -705,7 +705,7 @@
     "skill": "비밀금고 침입",
     "candySkill": "진귀한 비밀금고",
     "unlockCondition": "탈출레벨 20 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "chili.png"
   },
   {
     "id": 59,
@@ -717,7 +717,7 @@
     "skill": "투지",
     "candySkill": "불굴의 투지",
     "unlockCondition": "탈출레벨 22 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "redpepper.png"
   },
   {
     "id": 60,
@@ -729,7 +729,7 @@
     "skill": "롤러스케이트 코스 통과",
     "candySkill": "신나는 자몽과즙  폭죽",
     "unlockCondition": "탈출레벨 24 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "grapefruit.png"
   },
   {
     "id": 61,
@@ -741,7 +741,7 @@
     "skill": "레몬 보호막",
     "candySkill": "레몬 보호막 강화",
     "unlockCondition": "탈출레벨 25 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "lemon.png"
   },
   {
     "id": 62,
@@ -753,7 +753,7 @@
     "skill": "작살 낚시",
     "candySkill": "작살 낚시 강화",
     "unlockCondition": "탈출레벨 26 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "salt.png"
   },
   {
     "id": 63,
@@ -765,7 +765,7 @@
     "skill": "슈퍼 비치볼",
     "candySkill": "비치볼 질주",
     "unlockCondition": "탈출레벨 27 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "lime.png"
   },
   {
     "id": 64,
@@ -777,7 +777,7 @@
     "skill": "거대 오징어 변신",
     "candySkill": "거대 오징어 다리 강화",
     "unlockCondition": "탈출레벨 27 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "squid.png"
   },
   {
     "id": 65,
@@ -789,7 +789,7 @@
     "skill": "석류 주술",
     "candySkill": "거울 주술",
     "unlockCondition": "떼탈출 에피소드2 스테이지 1-9 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "pomegra.png"
   },
   {
     "id": 66,
@@ -801,7 +801,7 @@
     "skill": "디제잉",
     "candySkill": "무지개 디제잉",
     "unlockCondition": "용감한 쿠키 호감도 200 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "dj.png"
   },
   {
     "id": 67,
@@ -813,7 +813,7 @@
     "skill": "로드롤러",
     "candySkill": "로드롤러 강화",
     "unlockCondition": "팬케이크맛 쿠키 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "rollcake.png"
   },
   {
     "id": 68,
@@ -825,7 +825,7 @@
     "skill": "마시멜로 행진",
     "candySkill": "힘찬 행진",
     "unlockCondition": "마카롱맛 쿠키 호감도 200 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "marshmallow.png"
   },
   {
     "id": 69,
@@ -837,7 +837,7 @@
     "skill": "카드 마술",
     "candySkill": "부활 마술",
     "unlockCondition": "탈출레벨 18 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "sinamon.png"
   },
   {
     "id": 70,
@@ -849,7 +849,7 @@
     "skill": "젤리불피리",
     "candySkill": "숲의 기운",
     "unlockCondition": "랜드 8 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "fig.png"
   },
   {
     "id": 71,
@@ -861,7 +861,7 @@
     "skill": "사랑의 편지 쓰기",
     "candySkill": "두근대는 설렘",
     "unlockCondition": "친구 25명 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "sugarcandy.png"
   },
   {
     "id": 72,
@@ -873,7 +873,7 @@
     "skill": "당근 농사",
     "candySkill": "황금 당근",
     "unlockCondition": "떼탈출 에피소드 1 스테이지 2-2 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "carrot.png"
   },
   {
     "id": 73,
@@ -885,7 +885,7 @@
     "skill": "석궁 훈련",
     "candySkill": "황금 과녁",
     "unlockCondition": "당근맛 쿠키 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "beet.png"
   },
   {
     "id": 74,
@@ -897,7 +897,7 @@
     "skill": "보라색 돌풍",
     "candySkill": "크리티컬",
     "unlockCondition": "랜드 7 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "purpleyam.png"
   },
   {
     "id": 75,
@@ -909,11 +909,11 @@
     "skill": "신성한 방어",
     "candySkill": "방패 강화",
     "unlockCondition": "랜드 7 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "milk.png"
   },
   {
     "id": 76,
-    "name": "이온맛 쿠키",
+    "name": "이온맛 쿠키로봇",
     "grade": "Epic",
     "partner": 76,
     "bonus": "이온젤리 점수 +9,600점",
@@ -921,7 +921,7 @@
     "skill": "3단로봇 변신",
     "candySkill": "보라 이온젤리",
     "unlockCondition": "떼탈출 점수 101,010,101점 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "ion.png"
   },
   {
     "id": 77,
@@ -933,7 +933,7 @@
     "skill": "전류 질주",
     "candySkill": "전류 에너지포",
     "unlockCondition": "경기 랜드 6-1에서 40,000,000점 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "cyborg.png"
   },
   {
     "id": 78,
@@ -945,7 +945,7 @@
     "skill": "젤리 공룡 탑승",
     "candySkill": "황금 고기 젤리",
     "unlockCondition": "떼탈출 에피소드 1 스테이지 3-1 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "dino.png"
   },
   {
     "id": 79,
@@ -957,7 +957,7 @@
     "skill": "자두권",
     "candySkill": "공중 발차기",
     "unlockCondition": "탈출레벨 20 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "plum.png"
   },
   {
     "id": 80,
@@ -969,7 +969,7 @@
     "skill": "복숭봉술",
     "candySkill": "낙하봉술",
     "unlockCondition": "자두맛 쿠키 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "peach.png"
   },
   {
     "id": 81,
@@ -981,7 +981,7 @@
     "skill": "램프 요정 소환",
     "candySkill": "램프 요정 강화",
     "unlockCondition": "연금술사맛 쿠키 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "yogurt.png"
   },
   {
     "id": 82,
@@ -993,7 +993,7 @@
     "skill": "탐정",
     "candySkill": "명탐정",
     "unlockCondition": "쿠키 22종 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "walnut.png"
   },
   {
     "id": 83,
@@ -1005,7 +1005,7 @@
     "skill": "괴도",
     "candySkill": "보석",
     "unlockCondition": "용감한 쿠키 호감도 300 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "rog.png"
   },
   {
     "id": 84,
@@ -1017,7 +1017,7 @@
     "skill": "팔각 철퇴",
     "candySkill": "팔각 철퇴 강화",
     "unlockCondition": "탈출레벨 20 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "mala.png"
   },
   {
     "id": 85,
@@ -1029,7 +1029,7 @@
     "skill": "생일 축하 행진",
     "candySkill": "생일 선물상자",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "birthdaycake.png"
   },
   {
     "id": 86,
@@ -1041,7 +1041,7 @@
     "skill": "아케이드",
     "candySkill": "폭죽",
     "unlockCondition": "생일케이크맛 쿠키 호감도 300 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "firecracker.png"
   },
   {
     "id": 87,
@@ -1053,7 +1053,7 @@
     "skill": "신문 배달",
     "candySkill": "고급 신문 배달",
     "unlockCondition": "친구 30명 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "chestnut.png"
   },
   {
     "id": 88,
@@ -1065,7 +1065,7 @@
     "skill": "핸드벨 연주",
     "candySkill": "황금벨",
     "unlockCondition": "밤톨맛 쿠키 호감도 300 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "pudding.png"
   },
   {
     "id": 89,
@@ -1077,7 +1077,7 @@
     "skill": "예언",
     "candySkill": "황금 포춘 쿠키",
     "unlockCondition": "랜드 8 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "prophet.png"
   },
   {
     "id": 90,
@@ -1089,7 +1089,7 @@
     "skill": "마도서",
     "candySkill": "저주받은 마도서",
     "unlockCondition": "마법사맛 쿠키 호감도 300 달성",
-    "imageURL": "cookie.png"
+    "imageURL": "blueberry.png"
   },
   {
     "id": 91,
@@ -1101,7 +1101,7 @@
     "skill": "라즈베리 검술",
     "candySkill": "라즈베리 검술 강화",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "raspberry.png"
   },
   {
     "id": 92,
@@ -1113,7 +1113,7 @@
     "skill": "장미 탱고",
     "candySkill": "장미꽃 피날레",
     "unlockCondition": "라즈베리 무스맛 쿠키 보유",
-    "imageURL": "cookie.png"
+    "imageURL": "rose.png"
   },
   {
     "id": 93,
@@ -1125,7 +1125,7 @@
     "skill": "채소 좋아",
     "candySkill": "미니 채소",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "spinach.png"
   },
   {
     "id": 94,
@@ -1137,7 +1137,7 @@
     "skill": "샌드위치 주문서",
     "candySkill": "고급 샌드위치 주문서",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "sandwich.png"
   },
   {
     "id": 95,
@@ -1149,7 +1149,7 @@
     "skill": "망고 카누",
     "candySkill": "망고 물고기",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "mango.png"
   },
   {
     "id": 96,
@@ -1161,7 +1161,7 @@
     "skill": "꿈 마법",
     "candySkill": "별 마법",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "moonlight.png"
   },
   {
     "id": 97,
@@ -1173,7 +1173,7 @@
     "skill": "바람 질주",
     "candySkill": "바람궁수 각성",
     "unlockCondition": "챔피언스 리그 도달",
-    "imageURL": "cookie.png"
+    "imageURL": "windarcher.png"
   },
   {
     "id": 98,
@@ -1185,7 +1185,7 @@
     "skill": "파도 질주",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "seafairy.png"
   },
   {
     "id": 99,
@@ -1197,7 +1197,7 @@
     "skill": "불꽃 질주",
     "candySkill": "불꽃 에너지 강화",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "firespirit.png"
   },
   {
     "id": 100,
@@ -1209,7 +1209,7 @@
     "skill": "어둠 마법",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "darkenchantress.png"
   },
   {
     "id": 101,
@@ -1221,7 +1221,7 @@
     "skill": "시간 마법진",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "mtree.png"
   },
   {
     "id": 102,
@@ -1233,7 +1233,7 @@
     "skill": "드래곤 검술",
     "candySkill": "없음",
     "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "imageURL": "pitayadragon.png"
   },
   {
     "id": 103,
@@ -1244,8 +1244,8 @@
     "health": "183~317",
     "skill": "풍선 비행",
     "candySkill": "없음",
-    "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "unlockCondition": "콜라보 이벤트 쿠키",
+    "imageURL": "kitty.png"
   },
   {
     "id": 104,
@@ -1256,7 +1256,7 @@
     "health": "183~317",
     "skill": "꽃 가꾸기",
     "candySkill": "없음",
-    "unlockCondition": "없음",
-    "imageURL": "cookie.png"
+    "unlockCondition": "콜라보 이벤트 쿠키",
+    "imageURL": "mimmy.png"
   }
 ]

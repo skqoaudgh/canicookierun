@@ -24,7 +24,7 @@ const ModalCookie = ({ pet, bonus, left, top }) => {
       <section className="modalItem">
         <figure className="imageWrapper">
           <img
-            src={require(`./api/${pet.imageURL}`)}
+            src={require(`./assets/pet/${pet.imageURL}`)}
             alt={pet.name}
             onLoad={handleImageLoaded}
           />

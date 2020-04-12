@@ -5,7 +5,7 @@
     "grade": "Common",
     "partner": 0,
     "skills": ["노란곰젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "chocodrop.png"
   },
   {
     "id": 1,
@@ -13,7 +13,7 @@
     "grade": "Common",
     "partner": 1,
     "skills": ["분홍곰젤리 생성", "놓친 젤리 획득"],
-    "imageURL": "pet.png"
+    "imageURL": "cheesedrop.png"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "grade": "Common",
     "partner": 2,
     "skills": ["도트 생명물약 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "pocketstraw.png"
   },
   {
     "id": 3,
@@ -29,7 +29,7 @@
     "grade": "Common",
     "partner": 3,
     "skills": ["랜덤 아이템 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "luckydice.png"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "grade": "Rare",
     "partner": 4,
     "skills": ["구멍에서 광속 구출"],
-    "imageURL": "pet.png"
+    "imageURL": "rocket.png"
   },
   {
     "id": 5,
@@ -45,7 +45,7 @@
     "grade": "Rare",
     "partner": 5,
     "skills": ["쿠키 부활"],
-    "imageURL": "pet.png"
+    "imageURL": "star.png"
   },
   {
     "id": 6,
@@ -53,7 +53,7 @@
     "grade": "Rare",
     "partner": 6,
     "skills": ["생명회복 광속질주 아이템 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "light.png"
   },
   {
     "id": 7,
@@ -61,7 +61,7 @@
     "grade": "Rare",
     "partner": 7,
     "skills": ["색색 레이져 발사", "(장애물 파괴, 구슬젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "mini.png"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "grade": "Rare",
     "partner": 8,
     "skills": ["특수 거대화 아이템 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "twin.png"
   },
   {
     "id": 9,
@@ -77,7 +77,7 @@
     "grade": "Rare",
     "partner": 9,
     "skills": ["스포트라이트 발동", "(장애물 충돌 무시, 자력)", "(체력 감소 느려짐)"],
-    "imageURL": "pet.png"
+    "imageURL": "spotlight.png"
   },
   {
     "id": 10,
@@ -85,7 +85,7 @@
     "grade": "Rare",
     "partner": 10,
     "skills": ["체력 감소 느려짐", "충돌 피해 일부 복구"],
-    "imageURL": "pet.png"
+    "imageURL": "brain.png"
   },
   {
     "id": 11,
@@ -93,7 +93,7 @@
     "grade": "Rare",
     "partner": 11,
     "skills": ["소다맛 생명물약 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "lemonslice.png"
   },
   {
     "id": 12,
@@ -101,7 +101,7 @@
     "grade": "Rare",
     "partner": 12,
     "skills": ["물고기젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "cloud.png"
   },
   {
     "id": 13,
@@ -109,7 +109,7 @@
     "grade": "Rare",
     "partner": 13,
     "skills": ["원혼젤리 흡수"],
-    "imageURL": "pet.png"
+    "imageURL": "firebet.png"
   },
   {
     "id": 14,
@@ -117,7 +117,7 @@
     "grade": "Rare",
     "partner": 14,
     "skills": ["구멍 구출", "남은 구출 횟수를 점수로 환산"],
-    "imageURL": "pet.png"
+    "imageURL": "kidghost.png"
   },
   {
     "id": 15,
@@ -125,7 +125,7 @@
     "grade": "Rare",
     "partner": 15,
     "skills": ["코인을 소모하여 쿠키 부활"],
-    "imageURL": "pet.png"
+    "imageURL": "life.png"
   },
   {
     "id": 16,
@@ -133,7 +133,7 @@
     "grade": "Rare",
     "partner": 16,
     "skills": ["포도주스 생명물약 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "oak.png"
   },
   {
     "id": 17,
@@ -141,7 +141,7 @@
     "grade": "Rare",
     "partner": 17,
     "skills": ["고양이 코인 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "cheesecat.png"
   },
   {
     "id": 18,
@@ -149,7 +149,7 @@
     "grade": "Rare",
     "partner": 18,
     "skills": ["가디언 용 소환", "(광속질주, 파괴점수 획득)"],
-    "imageURL": "pet.png"
+    "imageURL": "dragontail.png"
   },
   {
     "id": 19,
@@ -157,7 +157,7 @@
     "grade": "Rare",
     "partner": 19,
     "skills": ["작은 생명물약 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "prinsub.png"
   },
   {
     "id": 20,
@@ -165,7 +165,7 @@
     "grade": "Rare",
     "partner": 20,
     "skills": ["색동별젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "lightball.png"
   },
   {
     "id": 21,
@@ -173,7 +173,7 @@
     "grade": "Epic",
     "partner": 21,
     "skills": ["보호막", "남은 보호막 횟수를 점수로 환산"],
-    "imageURL": "pet.png"
+    "imageURL": "spaceball.png"
   },
   {
     "id": 22,
@@ -181,7 +181,7 @@
     "grade": "Epic",
     "partner": 22,
     "skills": ["젤리코 미사일 발사", "모든 젤리점수 추가"],
-    "imageURL": "pet.png"
+    "imageURL": "zelyco.png"
   },
   {
     "id": 23,
@@ -189,7 +189,7 @@
     "grade": "Epic",
     "partner": 23,
     "skills": ["편안한 음악 재생 (체력 감소 느려짐)"],
-    "imageURL": "pet.png"
+    "imageURL": "sandspeaker.png"
   },
   {
     "id": 24,
@@ -197,7 +197,7 @@
     "grade": "Epic",
     "partner": 24,
     "skills": ["달리기 점수 추가"],
-    "imageURL": "pet.png"
+    "imageURL": "tomato.png"
   },
   {
     "id": 25,
@@ -205,7 +205,7 @@
     "grade": "Epic",
     "partner": 25,
     "skills": ["젤리를 먹어 고기젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "meatking.png"
   },
   {
     "id": 26,
@@ -213,7 +213,7 @@
     "grade": "Epic",
     "partner": 26,
     "skills": ["폭탄을 터뜨려 아이템 젤리와 코인 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "laughbomb.png"
   },
   {
     "id": 27,
@@ -221,7 +221,7 @@
     "grade": "Epic",
     "partner": 27,
     "skills": ["얼음곰젤리파티 아이템 생성", "얼음곰젤리 점수 추가"],
-    "imageURL": "pet.png"
+    "imageURL": "snowflower.png"
   },
   {
     "id": 28,
@@ -229,7 +229,7 @@
     "grade": "Epic",
     "partner": 28,
     "skills": ["이어달리기 쿠키 포함 부활"],
-    "imageURL": "pet.png"
+    "imageURL": "dog.png"
   },
   {
     "id": 29,
@@ -237,7 +237,7 @@
     "grade": "Epic",
     "partner": 29,
     "skills": ["거대화 질주 구슬 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "foxball.png"
   },
   {
     "id": 30,
@@ -245,23 +245,23 @@
     "grade": "Epic",
     "partner": 30,
     "skills": ["속도에 따른 추가 점수"],
-    "imageURL": "pet.png"
+    "imageURL": "magicdic.png"
   },
   {
     "id": 31,
-    "name": "스노으글로브",
+    "name": "스노우글로브",
     "grade": "Epic",
     "partner": 31,
     "skills": ["얼음곰젤리파티 생명물약 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "snowglove.png"
   },
   {
     "id": 32,
-    "name": "영혼투구",
+    "name": "영혼 투구",
     "grade": "Epic",
     "partner": 32,
     "skills": ["영혼 차원으로 이동", "(장애물 충돌 무시, 영혼젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "soulhat.png"
   },
   {
     "id": 33,
@@ -269,7 +269,7 @@
     "grade": "Epic",
     "partner": 33,
     "skills": ["광속질주 왕코인 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "mrsound.png"
   },
   {
     "id": 34,
@@ -277,7 +277,7 @@
     "grade": "Epic",
     "partner": 34,
     "skills": ["불주머니 발사", "(생명물약, 코코아마시멜로젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "marshamster.png"
   },
   {
     "id": 35,
@@ -285,7 +285,7 @@
     "grade": "Epic",
     "partner": 35,
     "skills": ["팬케이크 원반 던지기", "(장애물 파괴, 메이플시럽젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "pancakecircle.png"
   },
   {
     "id": 36,
@@ -293,7 +293,7 @@
     "grade": "Epic",
     "partner": 36,
     "skills": ["키위맛 거대화 아이템 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "kiwibird.png"
   },
   {
     "id": 37,
@@ -301,7 +301,7 @@
     "grade": "Epic",
     "partner": 37,
     "skills": ["젤리꽃 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "herbtea.png"
   },
   {
     "id": 38,
@@ -309,7 +309,7 @@
     "grade": "Epic",
     "partner": 38,
     "skills": ["꽃젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "flower.png"
   },
   {
     "id": 39,
@@ -317,7 +317,7 @@
     "grade": "Epic",
     "partner": 39,
     "skills": ["곰젤리파티 생명물약 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "dotori.png"
   },
   {
     "id": 40,
@@ -325,7 +325,7 @@
     "grade": "Epic",
     "partner": 40,
     "skills": ["바다거품젤리 발사 (장애물 파괴)"],
-    "imageURL": "pet.png"
+    "imageURL": "papership.png"
   },
   {
     "id": 41,
@@ -333,7 +333,7 @@
     "grade": "Epic",
     "partner": 41,
     "skills": ["거대 문어 변신", "(장애물 파괴, 점액젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "taco.png"
   },
   {
     "id": 42,
@@ -341,7 +341,7 @@
     "grade": "Epic",
     "partner": 42,
     "skills": ["핫도그젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "hotdog.png"
   },
   {
     "id": 43,
@@ -349,7 +349,7 @@
     "grade": "Epic",
     "partner": 43,
     "skills": ["광속질주 아이템 생성", "속도 점수 추가"],
-    "imageURL": "pet.png"
+    "imageURL": "mouse.png"
   },
   {
     "id": 44,
@@ -357,7 +357,7 @@
     "grade": "Epic",
     "partner": 44,
     "skills": ["보름달떡젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "moonsub.png"
   },
   {
     "id": 45,
@@ -365,7 +365,7 @@
     "grade": "Epic",
     "partner": 45,
     "skills": ["생명물약 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "greentea.png"
   },
   {
     "id": 46,
@@ -373,7 +373,7 @@
     "grade": "Epic",
     "partner": 46,
     "skills": ["캐스터네츠 연주", "(마카롱 젤리 생성, 아이템 젤리 추가 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "casta.png"
   },
   {
     "id": 47,
@@ -381,7 +381,7 @@
     "grade": "Epic",
     "partner": 47,
     "skills": ["눈송이젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "treecake.png"
   },
   {
     "id": 48,
@@ -389,7 +389,7 @@
     "grade": "Epic",
     "partner": 48,
     "skills": ["스파클링 주스 생성 (체력 감소 느려짐)"],
-    "imageURL": "pet.png"
+    "imageURL": "bobottle.png"
   },
   {
     "id": 49,
@@ -397,7 +397,7 @@
     "grade": "Epic",
     "partner": 49,
     "skills": ["뒤집기 (점수 획득)"],
-    "imageURL": "pet.png"
+    "imageURL": "ricetiger.png"
   },
   {
     "id": 50,
@@ -405,7 +405,7 @@
     "grade": "Epic",
     "partner": 50,
     "skills": ["톡톡캔디 생성", "(거대화, 체력 감소 느려짐)"],
-    "imageURL": "pet.png"
+    "imageURL": "candycase.png"
   },
   {
     "id": 51,
@@ -413,7 +413,7 @@
     "grade": "Epic",
     "partner": 51,
     "skills": ["분홍곰 유성우 폭격", "(장애물 파괴, 색색이켄디젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "pinkcandy.png"
   },
   {
     "id": 52,
@@ -421,7 +421,7 @@
     "grade": "Epic",
     "partner": 52,
     "skills": ["씨앗이 있을 때 모든 젤리 점수 추가"],
-    "imageURL": "pet.png"
+    "imageURL": "avocapo.png"
   },
   {
     "id": 53,
@@ -429,7 +429,7 @@
     "grade": "Epic",
     "partner": 53,
     "skills": ["벚꽃 생명물약 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "redtea.png"
   },
   {
     "id": 54,
@@ -437,7 +437,7 @@
     "grade": "Epic",
     "partner": 54,
     "skills": ["쿠키 부활"],
-    "imageURL": "pet.png"
+    "imageURL": "creamrose.png"
   },
   {
     "id": 55,
@@ -445,7 +445,7 @@
     "grade": "Epic",
     "partner": 55,
     "skills": ["광속자력 아이템 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "watch.png"
   },
   {
     "id": 56,
@@ -453,7 +453,7 @@
     "grade": "Epic",
     "partner": 56,
     "skills": ["배낭 뒤집기 (장애물 파괴)"],
-    "imageURL": "pet.png"
+    "imageURL": "backpack.png"
   },
   {
     "id": 57,
@@ -461,7 +461,7 @@
     "grade": "Epic",
     "partner": 57,
     "skills": ["정해진 순서의 아이템 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "maid.png"
   },
   {
     "id": 58,
@@ -469,7 +469,7 @@
     "grade": "Epic",
     "partner": 58,
     "skills": ["칠리코인 생성 (코인과 점수 획득)"],
-    "imageURL": "pet.png"
+    "imageURL": "badpepper.png"
   },
   {
     "id": 59,
@@ -477,7 +477,7 @@
     "grade": "Epic",
     "partner": 59,
     "skills": ["거대화 생멸물약 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "sandbag.png"
   },
   {
     "id": 60,
@@ -485,7 +485,7 @@
     "grade": "Epic",
     "partner": 60,
     "skills": ["자몽드링크 생성", "(광속질주, 체력 감소 느려짐)"],
-    "imageURL": "pet.png"
+    "imageURL": "tumblr.png"
   },
   {
     "id": 61,
@@ -493,7 +493,7 @@
     "grade": "Epic",
     "partner": 61,
     "skills": ["광속질주 곰젤리파티 아이템 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "lemonpower.png"
   },
   {
     "id": 62,
@@ -501,7 +501,7 @@
     "grade": "Epic",
     "partner": 62,
     "skills": ["고뮤튜브 박치기", "(장애물 파괴, 체력 회복)", "구멍 구출 2회"],
-    "imageURL": "pet.png"
+    "imageURL": "rubbertube.png"
   },
   {
     "id": 63,
@@ -509,7 +509,7 @@
     "grade": "Epic",
     "partner": 63,
     "skills": ["쿠키 부활 1회", "구멍 구출 1회"],
-    "imageURL": "pet.png"
+    "imageURL": "mrwhistle.png"
   },
   {
     "id": 64,
@@ -517,7 +517,7 @@
     "grade": "Epic",
     "partner": 64,
     "skills": ["먹물 발사", "(자력, 먹물젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "bubbletaco.png"
   },
   {
     "id": 65,
@@ -525,7 +525,7 @@
     "grade": "Epic",
     "partner": 65,
     "skills": ["석류씨앗젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "ruby.png"
   },
   {
     "id": 66,
@@ -533,7 +533,7 @@
     "grade": "Epic",
     "partner": 66,
     "skills": ["피처링 (체력 감소 느려짐)"],
-    "imageURL": "pet.png"
+    "imageURL": "jellypad.png"
   },
   {
     "id": 67,
@@ -541,15 +541,15 @@
     "grade": "Epic",
     "partner": 67,
     "skills": ["신호", "(녹색불: 체력 감소 느려짐)", "(빨간불: 광속질주)"],
-    "imageURL": "pet.png"
+    "imageURL": "lightbrother.png"
   },
   {
     "id": 68,
-    "name": "꼬꼬맛 아코디언",
+    "name": "꼬꼬마 아코디언",
     "grade": "Epic",
     "partner": 68,
     "skills": ["불협화음젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "kidacodian.png"
   },
   {
     "id": 69,
@@ -557,7 +557,7 @@
     "grade": "Epic",
     "partner": 69,
     "skills": ["시나몬롤 폭탄 생성", "(장애물 파괴, 시나몬롤젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "cinamonroll.png"
   },
   {
     "id": 70,
@@ -565,7 +565,7 @@
     "grade": "Epic",
     "partner": 70,
     "skills": ["무화과조각젤리 10개를 모아 쿠키 부활"],
-    "imageURL": "pet.png"
+    "imageURL": "fruitdeer.png"
   },
   {
     "id": 71,
@@ -573,7 +573,7 @@
     "grade": "Epic",
     "partner": 71,
     "skills": ["편지 배달", "(사랑의 편지: 광속질주)", "(우정의 편지: 거대화)"],
-    "imageURL": "pet.png"
+    "imageURL": "dove.png"
   },
   {
     "id": 72,
@@ -581,7 +581,7 @@
     "grade": "Epic",
     "partner": 72,
     "skills": ["장애물 파괴"],
-    "imageURL": "pet.png"
+    "imageURL": "carrotrabbit.png"
   },
   {
     "id": 73,
@@ -589,7 +589,7 @@
     "grade": "Epic",
     "partner": 73,
     "skills": ["젤리와 아이템 주워오기"],
-    "imageURL": "pet.png"
+    "imageURL": "beetsub.png"
   },
   {
     "id": 74,
@@ -597,7 +597,7 @@
     "grade": "Epic",
     "partner": 74,
     "skills": ["장애물 파괴점수 추가"],
-    "imageURL": "pet.png"
+    "imageURL": "angry.png"
   },
   {
     "id": 75,
@@ -605,7 +605,7 @@
     "grade": "Epic",
     "partner": 75,
     "skills": ["우유방울젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "milkbottle.png"
   },
   {
     "id": 76,
@@ -613,7 +613,7 @@
     "grade": "Epic",
     "partner": 76,
     "skills": ["이온 생명물약 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "bearion.png"
   },
   {
     "id": 77,
@@ -621,7 +621,7 @@
     "grade": "Epic",
     "partner": 77,
     "skills": ["일정 체력 밑으로 내려갈 때마다 최대 3회 체력 회복", "이어달리기 쿠키 최대 1회 체력 회복"],
-    "imageURL": "pet.png"
+    "imageURL": "bbpower.png"
   },
   {
     "id": 78,
@@ -629,7 +629,7 @@
     "grade": "Epic",
     "partner": 78,
     "skills": ["팝핑캔디 폭죽", "(팝핑캔디젤리 생성, 체력 회복)"],
-    "imageURL": "pet.png"
+    "imageURL": "popingdragon.png"
   },
   {
     "id": 79,
@@ -637,7 +637,7 @@
     "grade": "Epic",
     "partner": 79,
     "skills": ["기공파 (장애물 파괴)"],
-    "imageURL": "pet.png"
+    "imageURL": "prune.png"
   },
   {
     "id": 80,
@@ -645,7 +645,7 @@
     "grade": "Epic",
     "partner": 80,
     "skills": ["1000코인을 소모해 쿠키 부활"],
-    "imageURL": "pet.png"
+    "imageURL": "pandamandu.png"
   },
   {
     "id": 81,
@@ -653,7 +653,7 @@
     "grade": "Epic",
     "partner": 81,
     "skills": ["요거트별조각젤리 생성", "놓친 젤리 획득"],
-    "imageURL": "pet.png"
+    "imageURL": "lamp.png"
   },
   {
     "id": 82,
@@ -661,7 +661,7 @@
     "grade": "Epic",
     "partner": 82,
     "skills": ["쿠키가 놓친 다양한 단서 젤리 획득"],
-    "imageURL": "pet.png"
+    "imageURL": "teddy.png"
   },
   {
     "id": 83,
@@ -669,7 +669,7 @@
     "grade": "Epic",
     "partner": 83,
     "skills": ["치즈크럼블 폭탄", "(장애물 파괴, 치즈크럼블젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "cheesecrumble.png"
   },
   {
     "id": 84,
@@ -677,7 +677,7 @@
     "grade": "Epic",
     "partner": 84,
     "skills": ["색색 마라탕", "(빨간재료: 광속질주 물약 생성)", "(하얀재료: 회복 물약 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "dontblock.png"
   },
   {
     "id": 85,
@@ -685,7 +685,7 @@
     "grade": "Epic",
     "partner": 85,
     "skills": ["풍선 날아가기 (풍선젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "ballon.png"
   },
   {
     "id": 86,
@@ -693,7 +693,7 @@
     "grade": "Epic",
     "partner": 86,
     "skills": ["미니 게임 (블록젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "gamepad.png"
   },
   {
     "id": 87,
@@ -701,7 +701,7 @@
     "grade": "Epic",
     "partner": 87,
     "skills": ["뾰족 곰젤리 아이템 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "bigbam.png"
   },
   {
     "id": 88,
@@ -709,7 +709,7 @@
     "grade": "Epic",
     "partner": 88,
     "skills": ["루돌프음표젤리 생성 (체력 회복)"],
-    "imageURL": "pet.png"
+    "imageURL": "rudolpbell.png"
   },
   {
     "id": 89,
@@ -717,7 +717,7 @@
     "grade": "Epic",
     "partner": 89,
     "skills": ["보라보라 불꽃", "(점수 획득, 혼 빠진 곰젤리로 변환)"],
-    "imageURL": "pet.png"
+    "imageURL": "purplelight.png"
   },
   {
     "id": 90,
@@ -725,7 +725,7 @@
     "grade": "Epic",
     "partner": 90,
     "skills": ["장애물 파괴", "마법문자젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "bookmark.png"
   },
   {
     "id": 91,
@@ -733,7 +733,7 @@
     "grade": "Epic",
     "partner": 91,
     "skills": ["라즈베리젤리 떨어뜨리기 (체력 회복)"],
-    "imageURL": "pet.png"
+    "imageURL": "puddleberry.png"
   },
   {
     "id": 92,
@@ -741,7 +741,7 @@
     "grade": "Epic",
     "partner": 92,
     "skills": ["가시 발사", "(장애물 파괴, 체력 회복)"],
-    "imageURL": "pet.png"
+    "imageURL": "bloodyrose.png"
   },
   {
     "id": 93,
@@ -749,7 +749,7 @@
     "grade": "Epic",
     "partner": 93,
     "skills": ["채소 먹기 (완두젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "beanbug.png"
   },
   {
     "id": 94,
@@ -757,7 +757,7 @@
     "grade": "Epic",
     "partner": 94,
     "skills": ["샌드위치젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "sand.png"
   },
   {
     "id": 95,
@@ -765,7 +765,7 @@
     "grade": "Epic",
     "partner": 95,
     "skills": ["물어오기", "(애플망고 젤리, 장애물 파괴)"],
-    "imageURL": "pet.png"
+    "imageURL": "mangobird.png"
   },
   {
     "id": 96,
@@ -773,7 +773,7 @@
     "grade": "Epic",
     "partner": 102,
     "skills": ["전설의 열매", "(체력 회복, 점수 획득)"],
-    "imageURL": "pet.png"
+    "imageURL": "dragonfruit.png"
   },
   {
     "id": 97,
@@ -781,7 +781,7 @@
     "grade": "Legendary",
     "partner": 96,
     "skills": ["별빛 밤하늘", "(체력 감소 느려짐, 점수 획득)"],
-    "imageURL": "pet.png"
+    "imageURL": "starlight.png"
   },
   {
     "id": 98,
@@ -789,7 +789,7 @@
     "grade": "Legendary",
     "partner": -1,
     "skills": ["불새깃털젤리 생성", "쿠키와 이어달리키 쿠키 1회 부활"],
-    "imageURL": "pet.png"
+    "imageURL": "magma.png"
   },
   {
     "id": 99,
@@ -797,7 +797,7 @@
     "grade": "Legendary",
     "partner": -1,
     "skills": ["거대 골렘으로 변신", "(장애물 파괴, 바위젤리 생성)"],
-    "imageURL": "pet.png"
+    "imageURL": "emerald.png"
   },
   {
     "id": 100,
@@ -805,7 +805,7 @@
     "grade": "Legendary",
     "partner": -1,
     "skills": ["푸른 회오리 소환", "(자력, 장애물 파괴, 체력 회복)"],
-    "imageURL": "pet.png"
+    "imageURL": "blue.png"
   },
   {
     "id": 101,
@@ -813,7 +813,7 @@
     "grade": "Legendary",
     "partner": -1,
     "skills": ["눈뭉치 폭탄", "(장애물 파괴, 눈덩이젤리 생성)" , "(체력 감소 일시중지)"],
-    "imageURL": "pet.png"
+    "imageURL": "yetty.png"
   },
   {
     "id": 102,
@@ -821,7 +821,7 @@
     "grade": "Special",
     "partner": 103,
     "skills": ["체력 회복 아이템", "사과젤리파티 아이템을 순서대로 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "kittyapple.png"
   },
   {
     "id": 103,
@@ -829,6 +829,6 @@
     "grade": "Special",
     "partner": 104,
     "skills": ["꽃젤리 생성"],
-    "imageURL": "pet.png"
+    "imageURL": "mimmypot.png"
   }
 ]

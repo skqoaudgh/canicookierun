@@ -38,7 +38,7 @@ const CookieItem = ({ cookie, pet }) => {
         )}
         <figure className="imageWrapper">
           <img
-            src={require(`./api/${cookie.imageURL}`)}
+            src={require(`./assets/cookie/${cookie.imageURL}`)}
             alt={cookie.name}
             title={cookie.name}
             onLoad={handleImageLoaded}
