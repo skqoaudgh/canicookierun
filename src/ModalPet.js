@@ -20,7 +20,7 @@ const ModalPet = ({ cookie, left, top }) => {
     }px`;
     container.current.style.top = `${top - 130}px`;
     container.current.style.visibility = "visible";
-  }, []);
+  }, [left, top]);
 
   return (
     <div ref={container} className="modal">
