@@ -1,46 +1,34 @@
-import React, { useState } from "react";
-import ModalCookie from "./ModalCookie";
+import React, { useEffect, useRef } from "react";
+import "./Modal.css";
 
-import "./Item.css";
 
 import icon_hp from "./assets/icon/heart.svg";
 import icon_skill from "./assets/icon/magic.svg";
 import icon_candy from "./assets/icon/candy.svg";
 import icon_lock from "./assets/icon/lock.svg";
 
-const CookieItem = ({ cookie, pet }) => {
-  const [modalPosition, setModalPosition] = useState([0, 0]);
+const ModalPet = ({ cookie, left, top }) => {
+  const container = useRef();
 
   function handleImageLoaded(event) {
     event.target.classList.add("loaded");
   }
 
-  function handleMouseEnter(event) {
-    setModalPosition([event.target.offsetLeft, event.screenY]);
-  }
-
-  function handleMouseLeave(event) {
-    setModalPosition([0, 0]);
-  }
+  useEffect(() => {
+    container.current.style.left = `${
+      left - container.current.offsetWidth + 20
+    }px`;
+    container.current.style.top = `${top - 130}px`;
+    container.current.style.visibility = "visible";
+  }, []);
 
   return (
-    <li className="listItem">
-      <section className="item">
-        {modalPosition[0] > 0 ? (
-          <ModalCookie
-            pet={pet}
-            bonus={cookie.bonus}
-            left={modalPosition[0]}
-            top={modalPosition[1]}
-          />
-        ) : (
-          ""
-        )}
+    <div ref={container} className="modal">
+      <section className="modalItem">
         <figure className="imageWrapper">
           <img
             src={require(`./api/${cookie.imageURL}`)}
             alt={cookie.name}
-            title={cookie.name}
             onLoad={handleImageLoaded}
           />
         </figure>
@@ -50,17 +38,6 @@ const CookieItem = ({ cookie, pet }) => {
               <span className="itemName">{cookie.name}</span>
               <strong>{cookie.grade}</strong>
             </div>
-            {cookie.partner !== -1 ? (
-              <span
-                className="partner"
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-              >
-                짝꿍펫
-              </span>
-            ) : (
-              ""
-            )}
           </div>
           <ul className="info-detail">
             <li>
@@ -104,8 +81,8 @@ const CookieItem = ({ cookie, pet }) => {
           </ul>
         </div>
       </section>
-    </li>
+    </div>
   );
 };
 
-export default CookieItem;
+export default ModalPet;

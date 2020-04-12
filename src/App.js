@@ -48,13 +48,13 @@ function App() {
         <main className="list">
           {type === "allType" ? (
             <React.Fragment>
-              <CookieList cookies={cookies} grade={grade} />
-              <PetList pets={pets} grade={grade} />
+              <CookieList cookies={cookies} pets={pets} grade={grade} />
+              <PetList cookies={cookies} pets={pets} grade={grade} />
             </React.Fragment>
           ) : type === "cookie" ? (
-            <CookieList cookies={cookies} grade={grade} />
+            <CookieList cookies={cookies} pets={pets} grade={grade} />
           ) : (
-            <PetList pets={pets} grade={grade} />
+            <PetList cookies={cookies} pets={pets} grade={grade} />
           )}
         </main>      
       </div>

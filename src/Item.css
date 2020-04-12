@@ -31,6 +31,7 @@ li .item {
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 6px;
   border-radius: 0.5rem;
+  min-height: 9rem;
 }
 
 .imageWrapper {
@@ -114,4 +115,13 @@ li .item {
 
 .info-detail img.loaded {
   opacity: 1;
+}
+
+.petSkills {
+  list-style: none;
+  padding: 0;
+}
+
+.petSkill {
+  margin-bottom: 3px;
 }

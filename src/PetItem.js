@@ -1,20 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
+import ModalPet from "./ModalPet";
+
 import "./Item.css";
 
-import icon_skill from './assets/icon/magic.svg';
+import icon_skill from "./assets/icon/magic.svg";
 
-const PetItem = ({ pet }) => {
+const PetItem = ({ cookie, pet }) => {
+  const [modalPosition, setModalPosition] = useState([0, 0]);
+
   function handleImageLoaded(event) {
     event.target.classList.add("loaded");
   }
 
+  function handleMouseEnter(event) {
+    setModalPosition([event.target.offsetLeft, event.screenY]);
+  }
+
+  function handleMouseLeave(event) {
+    setModalPosition([0, 0]);
+  }
+
   return (
     <li className="listItem">
+      {modalPosition[0] > 0 ? (
+        <ModalPet
+          cookie={cookie}
+          bonus={cookie.bonus}
+          left={modalPosition[0]}
+          top={modalPosition[1]}
+        />
+      ) : (
+        ""
+      )}
       <section className="item">
         <figure className="imageWrapper">
           <img
             src={require(`./api/${pet.imageURL}`)}
             alt={pet.name}
+            title={pet.name}
             onLoad={handleImageLoaded}
           />
         </figure>
@@ -24,9 +47,39 @@ const PetItem = ({ pet }) => {
               <span className="itemName">{pet.name}</span>
               <strong>{pet.grade}</strong>
             </div>
-            <span className="partner">짝꿍쿠키</span>
+            {pet.partner !== -1 ? (
+              <span
+                className="partner"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                짝꿍쿠키
+              </span>
+            ) : (
+              ""
+            )}
           </div>
-          <div className="info-detail"><img src={icon_skill} alt="펫능력" title="펫능력" onLoad={handleImageLoaded} /> {pet.skill}</div>
+          <div className="info-detail">
+            <ul className="petSkills">
+              {pet.skills.map((skill, index) => (
+                <li className="petSkill" key={index}>
+                  {index === 0 ? (
+                    <img
+                      src={icon_skill}
+                      alt="펫능력"
+                      title="펫능력"
+                      onLoad={handleImageLoaded}
+                    />
+                  ) : (
+                    <div
+                      style={{ width: 14, height: 10, display: "inline-block" }}
+                    ></div>
+                  )}
+                  {skill}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
     </li>
