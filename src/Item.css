@@ -1,14 +1,32 @@
 .listItem {
   display: list-item;
   list-style: none;
-  padding: 0.5rem;
-  width: 28rem;
+  flex-basis: 25%;
+}
+
+@media (max-width: 1440px) and (min-width: 1023px) {
+  .listItem {
+    flex-basis: 33.3%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 767px) {
+  .listItem {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .listItem {
+    flex-basis: 100%;
+  }
 }
 
 li .item {
   display: flex;
   padding: 1rem;
-  margin: 0.5rem;
+  margin-right: 0.7rem;
+  margin-bottom: 0.7rem;
   align-items: center;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 6px;
@@ -37,17 +55,20 @@ li .item {
 
 .infoWrapper {
   margin-right: auto;
+  width: 100%;
 }
 
 .info-title {
   margin-bottom: 0.5rem;
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
   color: #CE6D39;
   font-weight: 700;
+  font-size: 12px;
 }
 
-.info-title span {
+.info-title .partner {
   background-color: #F17F42;
   color: white;
   border-radius: 9999px;
@@ -60,6 +81,11 @@ li .item {
   line-height: 1.5rem;
   margin-left: 1rem;
   cursor: pointer;
+}
+
+.info-title .itemName {
+  overflow: hidden;
+  text-align: left;
 }
 
 .info-title strong {

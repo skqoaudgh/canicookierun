@@ -5,9 +5,27 @@
 }
 
 .itemList {
-  min-width: 1440px;
-  max-width: 1440px;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   margin: auto;
+  max-width: 1600px;
+}
+
+@media (max-width: 1440px) and (min-width: 1023px) {
+  .listItem {
+    max-width: 1440px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 767px) {
+  .listItem {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .listItem {
+    max-width: 768px;
+  }
 }

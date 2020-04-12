@@ -26,11 +26,27 @@ div {
 }
 
 .selectWrapper {
-  min-width: 1440px;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.5rem;
+  max-width: 1600px;
+  margin: auto;
+  padding: 2.5rem;
+}
+
+@media (max-width: 1440px) and (min-width: 1023px) {
+  .selectWrapper {
+    max-width: 1440px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 767px) {
+  .selectWrapper {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .selectWrapper {
+    max-width: 768px;
+  }
 }
 
 .selectList {
