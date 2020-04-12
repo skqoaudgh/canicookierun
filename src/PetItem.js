@@ -1,6 +1,8 @@
 import React from "react";
 import "./Item.css";
 
+import icon_skill from './assets/icon/magic.svg';
+
 const PetItem = ({ pet }) => {
   function handleImageLoaded(event) {
     event.target.classList.add("loaded");
@@ -24,7 +26,7 @@ const PetItem = ({ pet }) => {
             </div>
             <span className="partner">짝꿍쿠키</span>
           </div>
-          <div className="info-detail">{pet.skill}</div>
+          <div className="info-detail"><img src={icon_skill} alt="펫능력" title="펫능력" onLoad={handleImageLoaded} /> {pet.skill}</div>
         </div>
       </section>
     </li>

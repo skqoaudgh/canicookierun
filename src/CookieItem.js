@@ -1,6 +1,11 @@
 import React from "react";
 import "./Item.css";
 
+import icon_hp from './assets/icon/heart.svg';
+import icon_skill from './assets/icon/magic.svg';
+import icon_candy from './assets/icon/candy.svg';
+import icon_lock from './assets/icon/lock.svg';
+
 const CookieItem = ({ cookie }) => {
   function handleImageLoaded(event) {
     event.target.classList.add("loaded");
@@ -25,11 +30,12 @@ const CookieItem = ({ cookie }) => {
             <span className="partner">짝꿍펫</span>
           </div>
           <ul className="info-detail">
-            <li>{cookie.health}</li>
+            <li><img src={icon_hp} alt="체력" title="체력" onLoad={handleImageLoaded} />{cookie.health}</li>
             <li>
-              {cookie.skill} {cookie.candySkill}
+              <div><img src={icon_skill} alt="쿠키능력" title="쿠키능력" onLoad={handleImageLoaded} /> {cookie.skill}</div> 
+              <div><img src={icon_candy} alt="마법사탕" title="마법사탕" onLoad={handleImageLoaded} /> {cookie.candySkill}</div>
             </li>
-            <li>{cookie.unlockCondition}</li>
+            <li><img src={icon_lock} alt="잠금해제" title="잠금해제" onLoad={handleImageLoaded} /> {cookie.unlockCondition}</li>
           </ul>
         </div>
       </section>
