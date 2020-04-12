@@ -9,7 +9,9 @@
   flex-wrap: wrap;
   width: 100%;
   margin: auto;
-  max-width: 1600px;
+  max-width: 1500px;
+  padding-inline-start: 0.5rem;
+  padding-inline-end: unset;
 }
 
 @media (max-width: 1440px) and (min-width: 1023px) {

@@ -26,9 +26,8 @@ div {
 }
 
 .selectWrapper {
-  max-width: 1600px;
+  max-width: 1500px;
   margin: auto;
-  padding: 2.5rem;
 }
 
 @media (max-width: 1440px) and (min-width: 1023px) {
@@ -77,6 +76,5 @@ div {
 
 .list {
   text-align: center;
-  margin: auto;
   width: 100%;
 }
