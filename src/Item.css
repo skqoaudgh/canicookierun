@@ -80,19 +80,20 @@ li .item {
   text-align: center;
   padding: auto;
   line-height: 1.5rem;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   cursor: pointer;
-}
-
-.info-title .itemName {
-  overflow: hidden;
-  text-align: left;
 }
 
 .info-title strong {
   font-size: 13px;
-  margin-left: 0.5rem;
   color: #f1b18f;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.info-first {
+  display: flex;
+  flex-direction: column;
 }
 
 .info-detail {
