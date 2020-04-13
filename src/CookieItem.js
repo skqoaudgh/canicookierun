@@ -50,6 +50,7 @@ const CookieItem = ({ cookie, pet }) => {
         isOpen={popUpShowed}
         handleHealthListClose={handleHealthListClose}
         cookie={cookie}
+        pet={pet}
       />
       <ModalCookie
         isOpen={modalPosition[0] > 0}
