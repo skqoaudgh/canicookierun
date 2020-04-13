@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Modal.css";
 
 
@@ -9,21 +9,21 @@ import icon_lock from "./assets/icon/lock.svg";
 
 const ModalPet = ({ cookie, left, top }) => {
   const container = useRef();
+  const [position, setPosition] = useState({left: 0, top: 0});
 
   function handleImageLoaded(event) {
     event.target.classList.add("loaded");
   }
 
   useEffect(() => {
-    container.current.style.left = `${
-      left - container.current.offsetWidth + 20
-    }px`;
-    container.current.style.top = `${top - 130}px`;
-    container.current.style.visibility = "visible";
+    setPosition({
+      left: left - container.current.offsetWidth + 20,
+      top: top
+    });
   }, [left, top]);
 
   return (
-    <div ref={container} className="modal">
+    <div ref={container} className="modal" style={position}>
       <section className="modalItem">
         <figure className="imageWrapper">
           <img

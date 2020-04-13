@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Modal.css";
 
 import icon_skill from "./assets/icon/magic.svg";
@@ -6,21 +6,21 @@ import icon_bonus from "./assets/icon/bonus.svg";
 
 const ModalCookie = ({ pet, bonus, left, top }) => {
   const container = useRef();
+  const [position, setPosition] = useState({left: 0, top: 0});
 
   function handleImageLoaded(event) {
     event.target.classList.add("loaded");
   }
 
   useEffect(() => {
-    container.current.style.left = `${
-      left - container.current.offsetWidth + 20
-    }px`;
-    container.current.style.top = `${top - 130}px`;
-    container.current.style.visibility = "visible";
+    setPosition({
+      left: left - container.current.offsetWidth + 20,
+      top: top
+    });
   }, [left, top]);
 
   return (
-    <div ref={container} className="modal">
+    <div ref={container} className="modal" style={position}>
       <section className="modalItem">
         <figure className="imageWrapper">
           <img
@@ -41,7 +41,7 @@ const ModalCookie = ({ pet, bonus, left, top }) => {
               <li>
                 <ul className="petSkills">
                   {pet.skills.map((skill, index) => (
-                    <li className="petSkill">
+                    <li key={index} className="petSkill">
                       {index === 0 ? (
                         <img
                           src={icon_skill}

@@ -16,7 +16,7 @@ const CookieItem = ({ cookie, pet }) => {
   }
 
   function handleMouseEnter(event) {
-    setModalPosition([event.target.offsetLeft, event.screenY]);
+    setModalPosition([event.target.offsetLeft, event.clientY]);
   }
 
   function handleMouseLeave(event) {
