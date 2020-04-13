@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CookieList from "./CookieList";
 import PetList from "./PetList";
+import Footer from "./Footer";
 
 import cookies from "./api/cookies.json";
 import pets from "./api/pets.json";
@@ -58,6 +59,7 @@ function App() {
           )}
         </main>      
       </div>
+      <Footer />
     </div>
   );
 }
