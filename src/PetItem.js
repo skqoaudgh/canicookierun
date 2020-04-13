@@ -72,7 +72,7 @@ const PetItem = ({ cookie, pet }) => {
                     />
                   ) : (
                     <div
-                      style={{ width: 14, height: 10, display: "inline-block" }}
+                      style={{ width: 18.5, height: 10, display: "inline-block" }}
                     ></div>
                   )}
                   {skill}
