@@ -9,7 +9,7 @@ import pets from "./api/pets.json";
 import './App.css';
 
 function App() {
-  const [type, setType] = useState("allType");
+  const [type, setType] = useState("cookie");
   const [grade, setGrade] = useState("allGrade");
 
   function handleTypeChange(event) {
