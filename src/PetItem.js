@@ -30,7 +30,7 @@ const PetItem = ({ cookie, pet }) => {
           top={modalPosition[1]}
         />
       ) : (
-        ""
+        null
       )}
       <section className="item">
         <figure className="imageWrapper">
@@ -56,7 +56,7 @@ const PetItem = ({ cookie, pet }) => {
                 짝꿍쿠키
               </span>
             ) : (
-              ""
+              null
             )}
           </div>
           <div className="info-detail">
