@@ -64,13 +64,15 @@ const CookieItem = ({ cookie, pet }) => {
           </div>
           <ul className="info-detail">
             <li>
-              <img
-                src={icon_hp}
-                alt="체력"
-                title="체력"
-                onLoad={handleImageLoaded}
-              />
-              {cookie.health}
+              <div>
+                <img
+                  src={icon_hp}
+                  alt="체력"
+                  title="체력"
+                  onLoad={handleImageLoaded}
+                />
+                {cookie.health}
+              </div>
             </li>
             <li>
               <div>
@@ -79,16 +81,18 @@ const CookieItem = ({ cookie, pet }) => {
                   alt="쿠키능력"
                   title="쿠키능력"
                   onLoad={handleImageLoaded}
-                />{" "}
+                />
                 {cookie.skill}
               </div>
+            </li>
+            <li>
               <div>
                 <img
                   src={icon_candy}
                   alt="마법사탕"
                   title="마법사탕"
                   onLoad={handleImageLoaded}
-                />{" "}
+                />
                 {cookie.candySkill}
               </div>
             </li>
@@ -98,7 +102,7 @@ const CookieItem = ({ cookie, pet }) => {
                 alt="잠금해제"
                 title="잠금해제"
                 onLoad={handleImageLoaded}
-              />{" "}
+              />
               {cookie.unlockCondition}
             </li>
           </ul>

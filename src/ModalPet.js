@@ -57,7 +57,7 @@ const ModalPet = ({ cookie, left, top }) => {
                   alt="쿠키능력"
                   title="쿠키능력"
                   onLoad={handleImageLoaded}
-                />{" "}
+                />
                 {cookie.skill}
               </div>
               <div>
@@ -66,7 +66,7 @@ const ModalPet = ({ cookie, left, top }) => {
                   alt="마법사탕"
                   title="마법사탕"
                   onLoad={handleImageLoaded}
-                />{" "}
+                />
                 {cookie.candySkill}
               </div>
             </li>
@@ -76,7 +76,7 @@ const ModalPet = ({ cookie, left, top }) => {
                 alt="잠금해제"
                 title="잠금해제"
                 onLoad={handleImageLoaded}
-              />{" "}
+              />
               {cookie.unlockCondition}
             </li>
           </ul>
