@@ -2,7 +2,6 @@
   display: list-item;
   list-style: none;
   flex-basis: 33.3%;
-  cursor: pointer;
 }
 
 @media (max-width: 1440px) and (min-width: 925px) {

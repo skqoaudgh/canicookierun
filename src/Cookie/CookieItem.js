@@ -1,26 +1,22 @@
 import React, { useState } from "react";
-import ModalCookie from "./ModalCookie";
-import ItemDetail from "./ItemDetail";
+import ModalCookie from "../Modal/ModalCookie";
 
 import "./Item.css";
 
-import icon_hp from "./assets/icon/heart.svg";
-import icon_skill from "./assets/icon/magic.svg";
-import icon_candy from "./assets/icon/candy.svg";
-import icon_lock from "./assets/icon/lock.svg";
+import icon_hp from "../assets/icon/heart.svg";
+import icon_skill from "../assets/icon/magic.svg";
+import icon_candy from "../assets/icon/candy.svg";
+import icon_lock from "../assets/icon/lock.svg";
 
 const CookieItem = ({ cookie, pet }) => {
   const [modalPosition, setModalPosition] = useState([0, 0]);
-  const [popUpShowed, setPopUpShowed] = useState(false);
 
   function handleImageLoaded(event) {
     event.target.classList.add("loaded");
   }
 
   function handleMouseEnter(event) {
-    if (!popUpShowed) {
-      setModalPosition([event.target.offsetLeft, event.clientY]);
-    }
+    setModalPosition([event.target.offsetLeft, event.clientY]);
   }
 
   function handleMouseLeave(event) {
@@ -29,29 +25,8 @@ const CookieItem = ({ cookie, pet }) => {
     }
   }
 
-  function handleHealthListOpen(event) {
-    if (modalPosition[0] === 0) {
-      setPopUpShowed(true);
-      document.body.style.overflowY = "hidden";
-    }
-  }
-
-  function handleHealthListClose(event) {
-    if (popUpShowed) {
-      setPopUpShowed(false);
-      document.body.style.overflowY = "scroll";
-      event.stopPropagation();
-    }
-  }
-
   return (
     <React.Fragment>
-      <ItemDetail
-        isOpen={popUpShowed}
-        handleHealthListClose={handleHealthListClose}
-        cookie={cookie}
-        pet={pet}
-      />
       <ModalCookie
         isOpen={modalPosition[0] > 0}
         pet={pet}
@@ -59,11 +34,11 @@ const CookieItem = ({ cookie, pet }) => {
         left={modalPosition[0]}
         top={modalPosition[1]}
       />
-      <li className="listItem" onClick={handleHealthListOpen}>
+      <li className="listItem">
         <section className="item">
           <figure className="imageWrapper">
             <img
-              src={require(`./assets/cookie/${cookie.imageURL}`)}
+              src={require(`../assets/cookie/${cookie.imageURL}`)}
               alt={cookie.name}
               title={cookie.name}
               onLoad={handleImageLoaded}

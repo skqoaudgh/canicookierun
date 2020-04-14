@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Modal.css";
 
-import icon_skill from "./assets/icon/magic.svg";
-import icon_bonus from "./assets/icon/bonus.svg";
+import icon_skill from "../assets/icon/magic.svg";
+import icon_bonus from "../assets/icon/bonus.svg";
 
 const ModalCookie = ({ isOpen, pet, bonus, left, top }) => {
   const container = useRef();
@@ -13,13 +13,13 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top }) => {
   }
 
   useEffect(() => {
-    if(container.current) {
+    if (container.current) {
       setPosition({
         left: left - container.current.offsetWidth + 20,
         top: top,
         visibility: "visible",
       });
-    } 
+    }
   }, [left, top]);
 
   return (
@@ -29,7 +29,7 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top }) => {
           <section className="modalItem">
             <figure className="imageWrapper">
               <img
-                src={require(`./assets/pet/${pet.imageURL}`)}
+                src={require(`../assets/pet/${pet.imageURL}`)}
                 alt={pet.name}
                 onLoad={handleImageLoaded}
               />

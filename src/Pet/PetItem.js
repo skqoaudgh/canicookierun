@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import ModalPet from "./ModalPet";
+import ModalPet from "../Modal/ModalPet";
 
-import "./Item.css";
+import "../Cookie/Item.css";
 
-import icon_skill from "./assets/icon/magic.svg";
+import icon_skill from "../assets/icon/magic.svg";
 
 const PetItem = ({ cookie, pet }) => {
   const [modalPosition, setModalPosition] = useState([0, 0]);
@@ -29,13 +29,11 @@ const PetItem = ({ cookie, pet }) => {
           left={modalPosition[0]}
           top={modalPosition[1]}
         />
-      ) : (
-        null
-      )}
+      ) : null}
       <section className="item">
         <figure className="imageWrapper">
           <img
-            src={require(`./assets/pet/${pet.imageURL}`)}
+            src={require(`../assets/pet/${pet.imageURL}`)}
             alt={pet.name}
             title={pet.name}
             onLoad={handleImageLoaded}
@@ -55,9 +53,7 @@ const PetItem = ({ cookie, pet }) => {
               >
                 짝꿍쿠키
               </span>
-            ) : (
-              null
-            )}
+            ) : null}
           </div>
           <div className="info-detail">
             <ul className="petSkills">
@@ -72,7 +68,11 @@ const PetItem = ({ cookie, pet }) => {
                     />
                   ) : (
                     <div
-                      style={{ width: 18.5, height: 10, display: "inline-block" }}
+                      style={{
+                        width: 18.5,
+                        height: 10,
+                        display: "inline-block",
+                      }}
                     ></div>
                   )}
                   {skill}

@@ -1,15 +1,14 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Modal.css";
 
-
-import icon_hp from "./assets/icon/heart.svg";
-import icon_skill from "./assets/icon/magic.svg";
-import icon_candy from "./assets/icon/candy.svg";
-import icon_lock from "./assets/icon/lock.svg";
+import icon_hp from "../assets/icon/heart.svg";
+import icon_skill from "../assets/icon/magic.svg";
+import icon_candy from "../assets/icon/candy.svg";
+import icon_lock from "../assets/icon/lock.svg";
 
 const ModalPet = ({ cookie, left, top }) => {
   const container = useRef();
-  const [position, setPosition] = useState({left: 0, top: 0});
+  const [position, setPosition] = useState({ left: 0, top: 0 });
 
   function handleImageLoaded(event) {
     event.target.classList.add("loaded");
@@ -19,7 +18,7 @@ const ModalPet = ({ cookie, left, top }) => {
     setPosition({
       left: left - container.current.offsetWidth + 20,
       top: top,
-      visibility: "visible"
+      visibility: "visible",
     });
   }, [left, top]);
 
@@ -28,7 +27,7 @@ const ModalPet = ({ cookie, left, top }) => {
       <section className="modalItem">
         <figure className="imageWrapper">
           <img
-            src={require(`./assets/cookie/${cookie.imageURL}`)}
+            src={require(`../assets/cookie/${cookie.imageURL}`)}
             alt={cookie.name}
             onLoad={handleImageLoaded}
           />

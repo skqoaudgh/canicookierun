@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import CookieList from "./CookieList";
-import PetList from "./PetList";
-import Footer from "./Footer";
+import CookieList from "./Cookie/CookieList";
+import PetList from "./Pet/PetList";
+import Footer from "./Footer/Footer";
 
 import cookies from "./api/cookies.json";
 import pets from "./api/pets.json";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   const [type, setType] = useState("cookie");
@@ -57,7 +57,7 @@ function App() {
           ) : (
             <PetList cookies={cookies} pets={pets} grade={grade} />
           )}
-        </main>      
+        </main>
       </div>
       <Footer />
     </div>
