@@ -1,0 +1,15 @@
+{
+  "short_name": "Can I Cookie Run?",
+  "name": "Can I Cookie Run?",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#ce6d39",
+  "background_color": "#ffffff"
+}
