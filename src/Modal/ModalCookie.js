@@ -57,7 +57,7 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top }) => {
                           ) : (
                             <div
                               style={{
-                                width: 14,
+                                width: 20,
                                 height: 10,
                                 display: "inline-block",
                               }}
