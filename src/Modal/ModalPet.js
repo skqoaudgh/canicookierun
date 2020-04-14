@@ -29,6 +29,7 @@ const ModalPet = ({ cookie, left, top }) => {
           <img
             src={require(`../assets/cookie/${cookie.imageURL}`)}
             alt={cookie.name}
+            title={cookie.name}
             onLoad={handleImageLoaded}
           />
         </figure>
@@ -50,24 +51,22 @@ const ModalPet = ({ cookie, left, top }) => {
               {cookie.health}
             </li>
             <li>
-              <div>
-                <img
-                  src={icon_skill}
-                  alt="쿠키능력"
-                  title="쿠키능력"
-                  onLoad={handleImageLoaded}
-                />
-                {cookie.skill}
-              </div>
-              <div>
-                <img
-                  src={icon_candy}
-                  alt="마법사탕"
-                  title="마법사탕"
-                  onLoad={handleImageLoaded}
-                />
-                {cookie.candySkill}
-              </div>
+              <img
+                src={icon_skill}
+                alt="쿠키능력"
+                title="쿠키능력"
+                onLoad={handleImageLoaded}
+              />
+              {cookie.skill}
+            </li>
+            <li>
+              <img
+                src={icon_candy}
+                alt="마법사탕"
+                title="마법사탕"
+                onLoad={handleImageLoaded}
+              />
+              {cookie.candySkill}
             </li>
             <li>
               <img
