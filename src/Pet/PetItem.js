@@ -1,15 +1,26 @@
-import React, { useState } from "react";
-import ModalPet from "../Modal/ModalPet";
+import React, { useState } from 'react';
+import {
+  LazyLoadImage,
+  trackWindowScroll,
+} from 'react-lazy-load-image-component';
 
-import "../Cookie/Item.css";
+import ModalPet from '../Modal/ModalPet';
 
-import icon_skill from "../assets/icon/magic.svg";
+import '../Cookie/Item.css';
 
-const PetItem = ({ cookie, pet }) => {
+import icon_skill from '../assets/icon/magic.svg';
+
+const PetItem = ({ cookie, pet, scrollPosition }) => {
+  const style = {
+    width: 18.5,
+    height: 10,
+    display: 'inline-block',
+  };
+
   const [modalPosition, setModalPosition] = useState([0, 0]);
 
   function handleImageLoaded(event) {
-    event.target.classList.add("loaded");
+    event.target.classList.add('loaded');
   }
 
   function handleMouseEnter(event) {
@@ -32,11 +43,13 @@ const PetItem = ({ cookie, pet }) => {
       ) : null}
       <section className="item">
         <figure className="imageWrapper">
-          <img
+          <LazyLoadImage
             src={require(`../assets/pet/${pet.imageURL}`)}
             alt={pet.name}
             title={pet.name}
+            effect="opacity"
             onLoad={handleImageLoaded}
+            scrollPosition={scrollPosition}
           />
         </figure>
         <div className="infoWrapper">
@@ -60,20 +73,16 @@ const PetItem = ({ cookie, pet }) => {
               {pet.skills.map((skill, index) => (
                 <li className="petSkill" key={index}>
                   {index === 0 ? (
-                    <img
+                    <LazyLoadImage
                       src={icon_skill}
                       alt="펫능력"
                       title="펫능력"
+                      effect="opacity"
                       onLoad={handleImageLoaded}
+                      scrollPosition={scrollPosition}
                     />
                   ) : (
-                    <div
-                      style={{
-                        width: 18.5,
-                        height: 10,
-                        display: "inline-block",
-                      }}
-                    ></div>
+                    <div style={style}></div>
                   )}
                   {skill}
                 </li>
@@ -86,4 +95,4 @@ const PetItem = ({ cookie, pet }) => {
   );
 };
 
-export default PetItem;
+export default trackWindowScroll(PetItem);

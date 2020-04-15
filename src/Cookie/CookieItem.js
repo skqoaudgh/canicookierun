@@ -1,18 +1,23 @@
-import React, { useState } from "react";
-import ModalCookie from "../Modal/ModalCookie";
+import React, { useState } from 'react';
+import {
+  LazyLoadImage,
+  trackWindowScroll,
+} from 'react-lazy-load-image-component';
 
-import "./Item.css";
+import ModalCookie from '../Modal/ModalCookie';
 
-import icon_hp from "../assets/icon/heart.svg";
-import icon_skill from "../assets/icon/magic.svg";
-import icon_candy from "../assets/icon/candy.svg";
-import icon_lock from "../assets/icon/lock.svg";
+import './Item.css';
 
-const CookieItem = ({ cookie, pet }) => {
+import icon_hp from '../assets/icon/heart.svg';
+import icon_skill from '../assets/icon/magic.svg';
+import icon_candy from '../assets/icon/candy.svg';
+import icon_lock from '../assets/icon/lock.svg';
+
+const CookieItem = ({ cookie, pet, scrollPosition }) => {
   const [modalPosition, setModalPosition] = useState([0, 0]);
 
   function handleImageLoaded(event) {
-    event.target.classList.add("loaded");
+    event.target.classList.add('loaded');
   }
 
   function handleMouseEnter(event) {
@@ -37,11 +42,13 @@ const CookieItem = ({ cookie, pet }) => {
       <li className="listItem">
         <section className="item">
           <figure className="imageWrapper">
-            <img
+            <LazyLoadImage
               src={require(`../assets/cookie/${cookie.imageURL}`)}
               alt={cookie.name}
               title={cookie.name}
+              effect="opacity"
               onLoad={handleImageLoaded}
+              scrollPosition={scrollPosition}
             />
           </figure>
           <div className="infoWrapper">
@@ -62,38 +69,46 @@ const CookieItem = ({ cookie, pet }) => {
             </div>
             <ul className="info-detail">
               <li>
-                <img
+                <LazyLoadImage
                   src={icon_hp}
                   alt="체력"
                   title="체력"
+                  effect="opacity"
                   onLoad={handleImageLoaded}
+                  scrollPosition={scrollPosition}
                 />
                 {cookie.health}
               </li>
               <li>
-                <img
+                <LazyLoadImage
                   src={icon_skill}
                   alt="쿠키능력"
                   title="쿠키능력"
+                  effect="opacity"
                   onLoad={handleImageLoaded}
+                  scrollPosition={scrollPosition}
                 />
                 {cookie.skill}
               </li>
               <li>
-                <img
+                <LazyLoadImage
                   src={icon_candy}
                   alt="마법사탕"
                   title="마법사탕"
+                  effect="opacity"
                   onLoad={handleImageLoaded}
+                  scrollPosition={scrollPosition}
                 />
                 {cookie.candySkill}
               </li>
               <li>
-                <img
+                <LazyLoadImage
                   src={icon_lock}
                   alt="잠금해제"
                   title="잠금해제"
+                  effect="opacity"
                   onLoad={handleImageLoaded}
+                  scrollPosition={scrollPosition}
                 />
                 {cookie.unlockCondition}
               </li>
@@ -105,4 +120,4 @@ const CookieItem = ({ cookie, pet }) => {
   );
 };
 
-export default CookieItem;
+export default trackWindowScroll(CookieItem);

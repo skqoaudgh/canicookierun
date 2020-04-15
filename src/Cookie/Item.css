@@ -37,15 +37,10 @@ li .item {
   margin: 0px 0.5rem 0px 0px;
 }
 
-.imageWrapper img {
+.imageWrapper img,
+.imageWrapper span {
   width: 100%;
   height: 100%;
-  opacity: 0;
-  transition: opacity 200ms ease-out 0s;
-}
-
-.imageWrapper img.loaded {
-  opacity: 1;
 }
 
 .infoWrapper {
@@ -58,13 +53,13 @@ li .item {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  color: #CE6D39;
+  color: #ce6d39;
   font-weight: 700;
   font-size: 17px;
 }
 
 .info-title .partner {
-  background-color: #F17F42;
+  background-color: #f17f42;
   color: white;
   border-radius: 9999px;
   width: 4.4rem;

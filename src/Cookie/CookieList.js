@@ -1,10 +1,10 @@
-import React from "react";
-import CookieItem from "./CookieItem.js";
-import "./List.css";
+import React from 'react';
+import CookieItem from './CookieItem.js';
+import './List.css';
 
 const List = ({ cookies, pets, grade }) => {
   const filteredCookies =
-    grade === "allGrade"
+    grade === 'allGrade'
       ? cookies
       : cookies.filter((cookie) => cookie.grade === grade);
 

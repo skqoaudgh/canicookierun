@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import CookieList from "./Cookie/CookieList";
-import PetList from "./Pet/PetList";
-import Footer from "./Footer/Footer";
+import React, { useState } from 'react';
+import CookieList from './Cookie/CookieList';
+import PetList from './Pet/PetList';
+import Footer from './Footer/Footer';
 
-import cookies from "./api/cookies.json";
-import pets from "./api/pets.json";
+import cookies from './api/cookies.json';
+import pets from './api/pets.json';
 
-import "./App.css";
+import './App.css';
 
 function App() {
-  const [type, setType] = useState("cookie");
-  const [grade, setGrade] = useState("allGrade");
+  const [type, setType] = useState('cookie');
+  const [grade, setGrade] = useState('allGrade');
 
   function handleTypeChange(event) {
     setType(event.target.value);
-    setGrade("allGrade");
+    setGrade('allGrade');
   }
 
   function handleGradeChange(event) {
@@ -47,12 +47,12 @@ function App() {
           </div>
         </div>
         <main className="list">
-          {type === "allType" ? (
+          {type === 'allType' ? (
             <React.Fragment>
               <CookieList cookies={cookies} pets={pets} grade={grade} />
               <PetList cookies={cookies} pets={pets} grade={grade} />
             </React.Fragment>
-          ) : type === "cookie" ? (
+          ) : type === 'cookie' ? (
             <CookieList cookies={cookies} pets={pets} grade={grade} />
           ) : (
             <PetList cookies={cookies} pets={pets} grade={grade} />

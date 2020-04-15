@@ -1,15 +1,26 @@
-import React, { useState, useEffect, useRef } from "react";
-import "./Modal.css";
+import React, { useState, useEffect, useRef } from 'react';
+import {
+  LazyLoadImage,
+  trackWindowScroll,
+} from 'react-lazy-load-image-component';
 
-import icon_skill from "../assets/icon/magic.svg";
-import icon_bonus from "../assets/icon/bonus.svg";
+import './Modal.css';
 
-const ModalCookie = ({ isOpen, pet, bonus, left, top }) => {
+import icon_skill from '../assets/icon/magic.svg';
+import icon_bonus from '../assets/icon/bonus.svg';
+
+const ModalCookie = ({ isOpen, pet, bonus, left, top, scrollPosition }) => {
+  const style = {
+    width: 20,
+    height: 10,
+    display: 'inline-block',
+  };
+
   const container = useRef();
   const [position, setPosition] = useState({ left: 0, top: 0 });
 
   function handleImageLoaded(event) {
-    event.target.classList.add("loaded");
+    event.target.classList.add('loaded');
   }
 
   useEffect(() => {
@@ -17,7 +28,7 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top }) => {
       setPosition({
         left: left - container.current.offsetWidth + 20,
         top: top,
-        visibility: "visible",
+        visibility: 'visible',
       });
     }
   }, [left, top]);
@@ -28,10 +39,12 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top }) => {
         <div ref={container} className="modal" style={position}>
           <section className="modalItem">
             <figure className="imageWrapper">
-              <img
+              <LazyLoadImage
                 src={require(`../assets/pet/${pet.imageURL}`)}
                 alt={pet.name}
+                effect="opacity"
                 onLoad={handleImageLoaded}
+                scrollPosition={scrollPosition}
               />
             </figure>
             <div className="infoWrapper">
@@ -48,20 +61,16 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top }) => {
                       {pet.skills.map((skill, index) => (
                         <li key={index} className="petSkill">
                           {index === 0 ? (
-                            <img
+                            <LazyLoadImage
                               src={icon_skill}
                               alt="펫능력"
                               title="펫능력"
+                              effect="opacity"
                               onLoad={handleImageLoaded}
+                              scrollPosition={scrollPosition}
                             />
                           ) : (
-                            <div
-                              style={{
-                                width: 20,
-                                height: 10,
-                                display: "inline-block",
-                              }}
-                            ></div>
+                            <div style={style}></div>
                           )}
                           {skill}
                         </li>
@@ -69,11 +78,13 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top }) => {
                     </ul>
                   </li>
                   <li>
-                    <img
+                    <LazyLoadImage
                       src={icon_bonus}
                       alt="조합보너스"
                       title="조합보너스"
+                      effect="opacity"
                       onLoad={handleImageLoaded}
+                      scrollPosition={scrollPosition}
                     />
                     {bonus}
                   </li>
@@ -87,4 +98,4 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top }) => {
   );
 };
 
-export default ModalCookie;
+export default trackWindowScroll(ModalCookie);
