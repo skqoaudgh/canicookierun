@@ -37,8 +37,14 @@ li .item {
   margin: 0px 0.5rem 0px 0px;
 }
 
-.imageWrapper img,
 .imageWrapper span {
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+  top: 1rem;
+}
+
+.imageWrapper span img {
   width: 100%;
   height: 100%;
 }

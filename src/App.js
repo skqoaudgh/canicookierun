@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import CookieList from './Cookie/CookieList';
 import PetList from './Pet/PetList';
+import TreasureList from './Treasure/TreasureList';
 import Footer from './Footer/Footer';
 
 import cookies from './api/cookies.json';
 import pets from './api/pets.json';
+import treasures from './api/treasures.json';
 
 import './App.css';
 
@@ -32,17 +34,27 @@ function App() {
                 <option value="allType">전체</option>
                 <option value="cookie">쿠키</option>
                 <option value="pet">펫</option>
+                <option value="treasure">보물</option>
               </select>
             </div>
             <div>
-              <select value={grade} onChange={handleGradeChange}>
-                <option value="allGrade">전체등급</option>
-                <option value="Common">Common</option>
-                <option value="Rare">Rare</option>
-                <option value="Epic">Epic</option>
-                <option value="Legendary">Legendary</option>
-                <option value="Special">Special</option>
-              </select>
+              {type === 'treasure' ? (
+                <select value={grade} onChange={handleGradeChange}>
+                  <option value="allGrade">전체등급</option>
+                  <option value="Rare">Rare</option>
+                  <option value="Epic">Epic</option>
+                  <option value="Special">Special</option>
+                </select>
+              ) : (
+                <select value={grade} onChange={handleGradeChange}>
+                  <option value="allGrade">전체등급</option>
+                  <option value="Common">Common</option>
+                  <option value="Rare">Rare</option>
+                  <option value="Epic">Epic</option>
+                  <option value="Legendary">Legendary</option>
+                  <option value="Special">Special</option>
+                </select>
+              )}
             </div>
           </div>
         </div>
@@ -54,8 +66,10 @@ function App() {
             </React.Fragment>
           ) : type === 'cookie' ? (
             <CookieList cookies={cookies} pets={pets} grade={grade} />
-          ) : (
+          ) : type === 'pet' ? (
             <PetList cookies={cookies} pets={pets} grade={grade} />
+          ) : (
+            <TreasureList treasures={treasures} grade={grade} />
           )}
         </main>
       </div>
