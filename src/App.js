@@ -60,6 +60,11 @@ function App() {
                 grade={grade}
                 search={search}
               />
+              <TreasureList
+                treasures={treasures}
+                grade={grade}
+                search={search}
+              />
             </React.Fragment>
           ) : type === 'cookie' ? (
             <CookieList
