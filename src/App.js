@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Form from './Form/Form';
 import CookieList from './Cookie/CookieList';
 import PetList from './Pet/PetList';
 import TreasureList from './Treasure/TreasureList';
@@ -13,63 +14,70 @@ import './App.css';
 function App() {
   const [type, setType] = useState('cookie');
   const [grade, setGrade] = useState('allGrade');
+  const [search, setSearch] = useState('');
 
   function handleTypeChange(event) {
     setType(event.target.value);
     setGrade('allGrade');
+    setSearch('');
   }
 
   function handleGradeChange(event) {
     setGrade(event.target.value);
+    setSearch('');
+  }
+
+  function handleSummit(event) {
+    if (event.keyCode === 13) {
+      event.preventDefault();
+      setSearch(event.target.value);
+      console.log(event.target.value);
+    }
   }
 
   return (
     <div className="main">
       <h1>Can I Cookie Run?</h1>
       <div className="mainWrapper">
-        <div className="selectWrapper">
-          <div className="selectList">
-            <div>
-              <select value={type} onChange={handleTypeChange}>
-                <option value="allType">전체</option>
-                <option value="cookie">쿠키</option>
-                <option value="pet">펫</option>
-                <option value="treasure">보물</option>
-              </select>
-            </div>
-            <div>
-              {type === 'treasure' ? (
-                <select value={grade} onChange={handleGradeChange}>
-                  <option value="allGrade">전체등급</option>
-                  <option value="Rare">Rare</option>
-                  <option value="Epic">Epic</option>
-                  <option value="Special">Special</option>
-                </select>
-              ) : (
-                <select value={grade} onChange={handleGradeChange}>
-                  <option value="allGrade">전체등급</option>
-                  <option value="Common">Common</option>
-                  <option value="Rare">Rare</option>
-                  <option value="Epic">Epic</option>
-                  <option value="Legendary">Legendary</option>
-                  <option value="Special">Special</option>
-                </select>
-              )}
-            </div>
-          </div>
-        </div>
+        <Form
+          type={type}
+          handleTypeChange={handleTypeChange}
+          grade={grade}
+          handleGradeChange={handleGradeChange}
+          handleSummit={handleSummit}
+        />
         <main className="list">
           {type === 'allType' ? (
             <React.Fragment>
-              <CookieList cookies={cookies} pets={pets} grade={grade} />
-              <PetList cookies={cookies} pets={pets} grade={grade} />
+              <CookieList
+                cookies={cookies}
+                pets={pets}
+                grade={grade}
+                search={search}
+              />
+              <PetList
+                cookies={cookies}
+                pets={pets}
+                grade={grade}
+                search={search}
+              />
             </React.Fragment>
           ) : type === 'cookie' ? (
-            <CookieList cookies={cookies} pets={pets} grade={grade} />
+            <CookieList
+              cookies={cookies}
+              pets={pets}
+              grade={grade}
+              search={search}
+            />
           ) : type === 'pet' ? (
-            <PetList cookies={cookies} pets={pets} grade={grade} />
+            <PetList
+              cookies={cookies}
+              pets={pets}
+              grade={grade}
+              search={search}
+            />
           ) : (
-            <TreasureList treasures={treasures} grade={grade} />
+            <TreasureList treasures={treasures} grade={grade} search={search} />
           )}
         </main>
       </div>

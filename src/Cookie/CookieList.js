@@ -2,11 +2,15 @@ import React from 'react';
 import CookieItem from './CookieItem.js';
 import './List.css';
 
-const List = ({ cookies, pets, grade }) => {
-  const filteredCookies =
-    grade === 'allGrade'
+const List = ({ cookies, pets, grade, search }) => {
+  let filteredCookies =
+    search === ''
       ? cookies
-      : cookies.filter((cookie) => cookie.grade === grade);
+      : cookies.filter((cookie) => cookie.name.indexOf(search) > -1);
+  filteredCookies =
+    grade === 'allGrade'
+      ? filteredCookies
+      : filteredCookies.filter((cookie) => cookie.grade === grade);
 
   return (
     <React.Fragment>
