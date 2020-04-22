@@ -41,7 +41,7 @@ const CookieItem = ({ cookie, pet, scrollPosition }) => {
       />
       <li className="listItem">
         <section className="item">
-          <figure className="imageWrapper">
+          <figure className="imageWrapper-cookie">
             <LazyLoadImage
               src={require(`../assets/cookie/${cookie.imageURL}`)}
               alt={cookie.name}

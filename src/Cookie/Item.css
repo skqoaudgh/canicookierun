@@ -28,6 +28,7 @@ li .item {
   min-height: 10rem;
 }
 
+.imageWrapper-cookie,
 .imageWrapper {
   min-width: 8rem;
   width: 8rem;
@@ -38,12 +39,20 @@ li .item {
 }
 
 .imageWrapper span {
-  width: 6rem;
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  top: 1.5rem;
+}
+
+.imageWrapper-cookie span {
+  width: 5rem;
   height: 6rem;
   position: relative;
   top: 1rem;
 }
 
+.imageWrapper-cookie span img,
 .imageWrapper span img {
   width: 100%;
   height: 100%;
