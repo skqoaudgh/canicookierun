@@ -21,7 +21,10 @@ const CookieItem = ({ cookie, pet, scrollPosition }) => {
   }
 
   function handleMouseEnter(event) {
-    setModalPosition([event.target.offsetLeft, event.clientY]);
+    setModalPosition([
+      event.target.offsetLeft,
+      event.target.getBoundingClientRect().top + event.target.offsetHeight + 10,
+    ]);
   }
 
   function handleMouseLeave(event) {

@@ -31,7 +31,6 @@ function App() {
     if (event.keyCode === 13) {
       event.preventDefault();
       setSearch(event.target.value);
-      console.log(event.target.value);
     }
   }
 
