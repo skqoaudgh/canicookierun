@@ -16,9 +16,17 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 402px) {
   .formWrapper {
     max-width: 768px;
+  }
+}
+
+@media (max-width: 401px) {
+  .formWrapper {
+    max-width: 401px;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -26,6 +34,12 @@
   display: inline-block;
   position: relative;
   height: 100%;
+}
+
+@media (max-width: 401px) {
+  .selectList {
+    margin-bottom: 1rem;
+  }
 }
 
 .selectList div {
@@ -67,4 +81,10 @@
 .searchForm {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 401px) {
+  .searchForm input {
+    width: 100%;
+  }
 }

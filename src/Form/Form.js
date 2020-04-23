@@ -41,7 +41,11 @@ const Form = ({
         </div>
       </div>
       <div className="searchForm">
-        <input type="text" onKeyUp={handleSummit} />
+        <input
+          type="text"
+          placeholder="검색어를 입력하세요"
+          onKeyUp={handleSummit}
+        />
       </div>
     </div>
   );
