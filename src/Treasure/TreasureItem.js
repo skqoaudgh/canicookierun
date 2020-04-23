@@ -7,14 +7,9 @@ import {
 import '../Cookie/Item.css';
 
 import icon_skill from '../assets/icon/magic.svg';
+import icon_empty from '../assets/icon/empty.png';
 
 const treasureItem = ({ treasure, scrollPosition }) => {
-  const style = {
-    width: 18.5,
-    height: 10,
-    display: 'inline-block',
-  };
-
   function handleImageLoaded(event) {
     event.target.classList.add('loaded');
   }
@@ -53,7 +48,14 @@ const treasureItem = ({ treasure, scrollPosition }) => {
                       scrollPosition={scrollPosition}
                     />
                   ) : (
-                    <div style={style}></div>
+                    <LazyLoadImage
+                      src={icon_empty}
+                      alt="보물효과"
+                      title="보물효과"
+                      effect="opacity"
+                      onLoad={handleImageLoaded}
+                      scrollPosition={scrollPosition}
+                    />
                   )}
                   {skill}
                 </li>

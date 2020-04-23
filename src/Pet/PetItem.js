@@ -9,14 +9,8 @@ import ModalPet from '../Modal/ModalPet';
 import '../Cookie/Item.css';
 
 import icon_skill from '../assets/icon/magic.svg';
-
+import icon_empty from '../assets/icon/empty.png';
 const PetItem = ({ cookie, pet, scrollPosition }) => {
-  const style = {
-    width: 18.5,
-    height: 10,
-    display: 'inline-block',
-  };
-
   const [modalPosition, setModalPosition] = useState([0, 0]);
 
   function handleImageLoaded(event) {
@@ -85,7 +79,14 @@ const PetItem = ({ cookie, pet, scrollPosition }) => {
                       scrollPosition={scrollPosition}
                     />
                   ) : (
-                    <div style={style}></div>
+                    <LazyLoadImage
+                      src={icon_empty}
+                      alt="펫능력"
+                      title="펫능력"
+                      effect="opacity"
+                      onLoad={handleImageLoaded}
+                      scrollPosition={scrollPosition}
+                    />
                   )}
                   {skill}
                 </li>

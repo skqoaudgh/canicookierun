@@ -115,7 +115,11 @@ li .item {
   align-items: center;
 }
 
-.info-detail li img {
+.info-detail li span {
+  line-height: 11px;
+}
+
+.info-detail li span img {
   min-width: 14px;
   width: 14px;
   height: 14px;
