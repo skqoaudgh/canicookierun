@@ -14,10 +14,10 @@ const List = ({ cookies, pets, grade, search, order }) => {
 
   switch (order) {
     case 'release_asc':
-      filteredCookies.sort((a, b) => a.release - b.release);
+      filteredCookies.sort((a, b) => new Date(a.release) - new Date(b.release));
       break;
     case 'release_desc':
-      filteredCookies.sort((a, b) => b.release - a.release);
+      filteredCookies.sort((a, b) => new Date(b.release) - new Date(a.release));
       break;
     case 'name_asc':
       filteredCookies.sort((a, b) => a.name.localeCompare(b.name));

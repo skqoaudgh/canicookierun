@@ -93,7 +93,12 @@ function App() {
               order={order}
             />
           ) : (
-            <TreasureList treasures={treasures} grade={grade} search={search} />
+            <TreasureList
+              treasures={treasures}
+              grade={grade}
+              search={search}
+              order={order}
+            />
           )}
         </main>
       </div>

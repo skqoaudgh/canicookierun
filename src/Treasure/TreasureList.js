@@ -5,19 +5,24 @@ import '../Cookie/List.css';
 const TreasureList = ({ treasures, grade, search, order }) => {
   let filteredTreaures =
     search === ''
-      ? treasures
+      ? JSON.parse(JSON.stringify(treasures))
       : treasures.filter((treaure) => treaure.name.indexOf(search) > -1);
   filteredTreaures =
     grade === 'allGrade'
       ? filteredTreaures
       : filteredTreaures.filter((treaure) => treaure.grade === grade);
 
+  console.log(filteredTreaures);
   switch (order) {
     case 'release_asc':
-      filteredTreaures.sort((a, b) => a.release - b.release);
+      filteredTreaures.sort(
+        (a, b) => new Date(a.release) - new Date(b.release)
+      );
       break;
     case 'release_desc':
-      filteredTreaures.sort((a, b) => b.release - a.release);
+      filteredTreaures.sort(
+        (a, b) => new Date(b.release) - new Date(a.release)
+      );
       break;
     case 'name_asc':
       filteredTreaures.sort((a, b) => a.name.localeCompare(b.name));
@@ -28,7 +33,7 @@ const TreasureList = ({ treasures, grade, search, order }) => {
     default:
       break;
   }
-
+  console.log(filteredTreaures);
   return (
     <React.Fragment>
       <h2 className="itemTitle">보물</h2>

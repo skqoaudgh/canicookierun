@@ -14,10 +14,22 @@ const PetList = ({ cookies, pets, grade, search, order }) => {
 
   switch (order) {
     case 'release_asc':
-      filteredPets.sort((a, b) => a.release - b.release);
+      filteredPets.sort((a, b) => {
+        const a_release =
+          a.partner === -1 ? a.release : cookies[a.partner].release;
+        const b_release =
+          b.partner === -1 ? b.release : cookies[b.partner].release;
+        return new Date(a_release) - new Date(b_release);
+      });
       break;
     case 'release_desc':
-      filteredPets.sort((a, b) => b.release - a.release);
+      filteredPets.sort((a, b) => {
+        const a_release =
+          a.partner === -1 ? a.release : cookies[a.partner].release;
+        const b_release =
+          b.partner === -1 ? b.release : cookies[b.partner].release;
+        return new Date(b_release) - new Date(a_release);
+      });
       break;
     case 'name_asc':
       filteredPets.sort((a, b) => a.name.localeCompare(b.name));
