@@ -7,49 +7,56 @@
       "26초마다 보호막 생성",
       "버블건 보호막이 있을 때 모든 젤리 240점 추가"
     ],
-    "imageURL": "shieldbubble.png"
+    "imageURL": "shieldbubble.png",
+    "release": "0000-01-01"
   },
   {
     "id": 1,
     "name": "젤리 토핑 컵케이크",
     "grade": "Rare",
     "skills": ["모든 젤리 점수 1,320점 추가"],
-    "imageURL": "cupcake.png"
+    "imageURL": "cupcake.png",
+    "release": "0000-01-01"
   },
   {
     "id": 2,
     "name": "곰젤리 아이스크림",
     "grade": "Rare",
     "skills": ["모든 곰젤리 점수 3,960점 추가"],
-    "imageURL": "icecream.png"
+    "imageURL": "icecream.png",
+    "release": "0000-01-01"
   },
   {
     "id": 3,
     "name": "롤리팝 스케이트",
     "grade": "Rare",
     "skills": ["기본 속도 10% 증가", "꼬마 속도점수 6단"],
-    "imageURL": "rollipopskate.png"
+    "imageURL": "rollipopskate.png",
+    "release": "0000-01-01"
   },
   {
     "id": 4,
     "name": "코인 장식 은왕관",
     "grade": "Rare",
     "skills": ["코인 은화코인 점수 4,800점 추가"],
-    "imageURL": "coinhead.png"
+    "imageURL": "coinhead.png",
+    "release": "0000-01-01"
   },
   {
     "id": 5,
     "name": "미니 자석 로봇",
     "grade": "Rare",
     "skills": ["25초마다 8초 동안 자력 발동", "자력시 젤리 점수 3,000점"],
-    "imageURL": "minimagnet.png"
+    "imageURL": "minimagnet.png",
+    "release": "0000-01-01"
   },
   {
     "id": 6,
     "name": "아몬드 초코칩 망치",
     "grade": "Rare",
     "skills": ["장애물 파괴점수 29,640점 추가"],
-    "imageURL": "chocohammer.png"
+    "imageURL": "chocohammer.png",
+    "release": "0000-01-01"
   },
   {
     "id": 7,
@@ -59,42 +66,48 @@
       "10.9초마다 다이너마이트 폭발",
       "다이너마이트 폭발 3초 동안 지속"
     ],
-    "imageURL": "candidinamite.png"
+    "imageURL": "candidinamite.png",
+    "release": "0000-01-01"
   },
   {
     "id": 8,
     "name": "젤리 씨앗 크리스탈 항아리",
     "grade": "Rare",
     "skills": ["6% 확률로 젤리꽃 생성", "젤리꽃 점수 2,520점 추가"],
-    "imageURL": "crystalpot.png"
+    "imageURL": "crystalpot.png",
+    "release": "0000-01-01"
   },
   {
     "id": 9,
     "name": "얼음 진주 산호초",
     "grade": "Rare",
     "skills": ["4초마다 코인 획득", "코인 보너스 15% 증가"],
-    "imageURL": "iceperl.png"
+    "imageURL": "iceperl.png",
+    "release": "2017-08-30"
   },
   {
     "id": 10,
     "name": "부활의 붉은 알",
     "grade": "Rare",
     "skills": ["25체력으로 부활", "3초 동안 마지막 질주"],
-    "imageURL": "redegg.png"
+    "imageURL": "redegg.png",
+    "release": "2017-08-30"
   },
   {
     "id": 11,
     "name": "어둠의 캔디케인 마법 지팡이",
     "grade": "Rare",
     "skills": ["장애물 파괴시 9,600점의 암흑기운 젤리 3개 생성"],
-    "imageURL": "candycane.png"
+    "imageURL": "candycane.png",
+    "release": "2017-08-30"
   },
   {
     "id": 12,
     "name": "은화꽃 코인 브로치",
     "grade": "Rare",
     "skills": ["10% 확률로 은화꽃 생성, 은화꽃 10,440점 추가"],
-    "imageURL": "coinbroch.png"
+    "imageURL": "coinbroch.png",
+    "release": "2017-12-29"
   },
   {
     "id": 13,
@@ -104,49 +117,56 @@
       "젤리 8,222개 획득시, 최대 22체력으로 부활",
       "젤리 4,222개 획득시 이어달리기 최대 22체력으로 부활"
     ],
-    "imageURL": "wing.png"
+    "imageURL": "wing.png",
+    "release": "2018-01-30"
   },
   {
     "id": 14,
     "name": "완벽한 착지 교본",
     "grade": "Rare",
     "skills": ["착지 점수 12단", "착지시 12%의 확률로 추가 점수 획득"],
-    "imageURL": "landbook.png"
+    "imageURL": "landbook.png",
+    "release": "2018-02-27"
   },
   {
     "id": 15,
     "name": "신성한 오로라 영액",
     "grade": "Epic",
     "skills": ["320% 속도로 5초 동안 마지막 질주", "마지막 질주 시간 1초 증가"],
-    "imageURL": "hollyliquid.png"
+    "imageURL": "hollyliquid.png",
+    "release": "2017-11-30"
   },
   {
     "id": 16,
     "name": "황금코인 폭죽 상자",
     "grade": "Epic",
     "skills": ["14% 확률로 코인폭죽 발동", "왕코인 생성확률 20% 증가"],
-    "imageURL": "firework.png"
+    "imageURL": "firework.png",
+    "release": "2017-11-30"
   },
   {
     "id": 17,
     "name": "무지개곰젤리 롤케이크",
     "grade": "Epic",
     "skills": ["무지개곰젤리 점수 100,000점 추가"],
-    "imageURL": "rollcake.png"
+    "imageURL": "rollcake.png",
+    "release": "2017-11-30"
   },
   {
     "id": 18,
     "name": "이글이글 별똥별 캔디",
     "grade": "Epic",
     "skills": ["7% 확률로 별똥별 폭격", "별사탕 젤리 추가 점수 3,400점 추가"],
-    "imageURL": "starcandy.png"
+    "imageURL": "starcandy.png",
+    "release": "2017-11-30"
   },
   {
     "id": 19,
     "name": "다이너마이트 보물상자",
     "grade": "Epic",
     "skills": ["8초마다 하늘에서 아이템 상자 등장"],
-    "imageURL": "treasurebox.png"
+    "imageURL": "treasurebox.png",
+    "release": "2017-11-30"
   },
   {
     "id": 20,
@@ -156,7 +176,8 @@
       "점프 횟수 2회 추가, 점프 점스 29,400점 추가",
       "25.3초마다 보호막 생성, 점프 점수 5,400점 추가"
     ],
-    "imageURL": "springshose.png"
+    "imageURL": "springshose.png",
+    "release": "2017-11-30"
   },
   {
     "id": 21,
@@ -166,21 +187,24 @@
       "13초마다 부메랑을 던짐, 부메랑 점수 840,000점 추가",
       "부메랑이 획득하는 젤리 점수 1,800점 추가"
     ],
-    "imageURL": "boomerang.png"
+    "imageURL": "boomerang.png",
+    "release": "2017-12-29"
   },
   {
     "id": 22,
     "name": "당근푸딩 트램폴린",
     "grade": "Epic",
     "skills": ["20초마다 구출, 구출시 1,200,000점 추가"],
-    "imageURL": "tramp.png"
+    "imageURL": "tramp.png",
+    "release": "2017-12-29"
   },
   {
     "id": 23,
     "name": "얼음 꽁꽁 초코케이크",
     "grade": "Epic",
     "skills": ["14초마다 빙수젤리 생성, 빙수젤리 60,000점"],
-    "imageURL": "chococake.png"
+    "imageURL": "chococake.png",
+    "release": "2017-12-29"
   },
   {
     "id": 24,
@@ -191,7 +215,8 @@
       "하트뿅뿅 왕곰젤리 1,260,000점",
       "노란곰젤리 2,160점 추가"
     ],
-    "imageURL": "ring.png"
+    "imageURL": "ring.png",
+    "release": "2018-01-30"
   },
   {
     "id": 25,
@@ -201,21 +226,24 @@
       "방패 5회, 자력 범위 30",
       "방패 자력이 발동하는 동안 모든 젤리 점수 1,800점 추가"
     ],
-    "imageURL": "hollyshield.png"
+    "imageURL": "hollyshield.png",
+    "release": "2018-02-13"
   },
   {
     "id": 26,
     "name": "저주받은 영웅의 성배",
     "grade": "Epic",
     "skills": ["모든 젤리 점수 3,360점 추가", "체력감소 5% 빠름"],
-    "imageURL": "hero.png"
+    "imageURL": "hero.png",
+    "release": "2018-03-13"
   },
   {
     "id": 27,
     "name": "배부른 젤리퐁퐁 점핑 젤리말",
     "grade": "Epic",
     "skills": ["40초마다 날개달린 거대화 아이템 생성, 퐁퐁 젤리 점수 13,400점"],
-    "imageURL": "jumpinghorse.png"
+    "imageURL": "jumpinghorse.png",
+    "release": "2018-04-10"
   },
   {
     "id": 28,
@@ -225,7 +253,8 @@
       "점점 빨라져 최고속도 19.0% 증가",
       "최고속도 도달시 바람보호막 생성"
     ],
-    "imageURL": "turboengine.png"
+    "imageURL": "turboengine.png",
+    "release": "2018-03-27"
   },
   {
     "id": 29,
@@ -235,14 +264,16 @@
       "14.5초마다 파도가 나타남, 물방울이 씌여진 젤리 12,750점 추가",
       "물방울이 씌여진 젤리 2,250점 추가"
     ],
-    "imageURL": "sora.png"
+    "imageURL": "sora.png",
+    "release": "2018-05-29"
   },
   {
     "id": 30,
     "name": "황금치즈 곡괭이",
     "grade": "Epic",
     "skills": ["치즈 젤리 39,600점, 황금치즈 젤리 118,800점 추가"],
-    "imageURL": "cheese.png"
+    "imageURL": "cheese.png",
+    "release": "2018-06-12"
   },
   {
     "id": 31,
@@ -252,7 +283,8 @@
       "50% 확률로 다양한 곰젤리 생성",
       "45.0% 확률로 3개의 곰젤리 연속 생성"
     ],
-    "imageURL": "medal.png"
+    "imageURL": "medal.png",
+    "release": "2018-04-28"
   },
   {
     "id": 32,
@@ -263,7 +295,8 @@
       "50% 확률로 황금 곰코인 등장",
       "곰코인파티 아이템 지속시간 6.5초"
     ],
-    "imageURL": "coinbox.png"
+    "imageURL": "coinbox.png",
+    "release": "2018-07-16"
   },
   {
     "id": 33,
@@ -272,14 +305,16 @@
     "skills": [
       "16.1% 확률로 행운의 클로버젤리 생성, 행운의 클로버젤리 72,000점"
     ],
-    "imageURL": "cloverear.png"
+    "imageURL": "cloverear.png",
+    "release": "2018-08-13"
   },
   {
     "id": 34,
     "name": "불끈 파워 에너지드링크",
     "grade": "Epic",
     "skills": ["꿀방울 젤리점수 40,000점 추가"],
-    "imageURL": "powerdrink.png"
+    "imageURL": "powerdrink.png",
+    "release": "2018-06-27"
   },
   {
     "id": 35,
@@ -289,14 +324,16 @@
       "10초마다 별자리 발견, 별자리젤리 점수 170,000점",
       "별자리 완성시 성운젤리 25개 생성"
     ],
-    "imageURL": "starwatch.png"
+    "imageURL": "starwatch.png",
+    "release": "2018-07-27"
   },
   {
     "id": 36,
     "name": "럭셔리 레드카펫",
     "grade": "Epic",
     "skills": ["24초마다 27개의 카펙 생성, 카펫 위 젤리는 21,500점 추가"],
-    "imageURL": "redcarpet.png"
+    "imageURL": "redcarpet.png",
+    "release": "2018-08-31"
   },
   {
     "id": 37,
@@ -306,7 +343,8 @@
       "3.0초마다 나타나는 보물지도조각 젤리 7장을 모으면 12레벨 보물상자 발견",
       "보물지도조각 젤리 36,000점 추가"
     ],
-    "imageURL": "treasuremap.png"
+    "imageURL": "treasuremap.png",
+    "release": "2018-09-16"
   },
   {
     "id": 38,
@@ -317,7 +355,8 @@
       "어둠 기운 젤리 63,600점",
       "어둠 수정 젤리 72,000점 추가"
     ],
-    "imageURL": "magicmirror.png"
+    "imageURL": "magicmirror.png",
+    "release": "2018-09-28"
   },
   {
     "id": 39,
@@ -327,14 +366,16 @@
       "11초마다 빛의 묘목 등장, 최소 13개의 천년 잎사귀 젤리 생성",
       "천년 잎사귀 젤리 10,080점 추가"
     ],
-    "imageURL": "green.png"
+    "imageURL": "green.png",
+    "release": "2018-10-08"
   },
   {
     "id": 40,
     "name": "태고의 천둥북",
     "grade": "Epic",
     "skills": ["10% 확률로 번개를 내려침, 번개로 획득한 젤리는 15,600점 추가"],
-    "imageURL": "thunder.png"
+    "imageURL": "thunder.png",
+    "release": "2018-11-09"
   },
   {
     "id": 41,
@@ -344,7 +385,8 @@
       "5초마다 꼬마 음표젤리 등장, 화음점수 450,000점 추가",
       "30% 확률로 무지개 꼬마음표 젤리 등장"
     ],
-    "imageURL": "headset.png"
+    "imageURL": "headset.png",
+    "release": "2018-10-25"
   },
   {
     "id": 42,
@@ -354,7 +396,8 @@
       "종이비행기 점수 350,000점 추가",
       "종이비행기가 획득한 젤리 점수 3,300점"
     ],
-    "imageURL": "paperplane.png"
+    "imageURL": "paperplane.png",
+    "release": "2018-12-19"
   },
   {
     "id": 43,
@@ -364,7 +407,8 @@
       "4초마다 300,000점의 카드 뒷면 젤리 등장, 딱맞춤 완성시 770,000점 획득",
       "28% 확률로 와일드카드 등장"
     ],
-    "imageURL": "trumpcard.png"
+    "imageURL": "trumpcard.png",
+    "release": "2018-12-31"
   },
   {
     "id": 44,
@@ -374,7 +418,8 @@
       "4초마다 마법진이 생겨나, 마법진 위 젤리들에 17,500점 추가",
       "마법진의 크기 20% 증가"
     ],
-    "imageURL": "forbidden.png"
+    "imageURL": "forbidden.png",
+    "release": "2019-01-21"
   },
   {
     "id": 45,
@@ -384,7 +429,8 @@
       "거대 무화과 생명물약을 획득할 때마다 기본 장애물 파괴점수 18,000점 상승",
       "거대 무화과 생명물약 점수 720,000점 추가"
     ],
-    "imageURL": "aid.png"
+    "imageURL": "aid.png",
+    "release": "2019-01-31"
   },
   {
     "id": 46,
@@ -393,14 +439,16 @@
     "skills": [
       "9.9초동안 충동하지 않고 달리면 860,000점의 평화의 잎 젤리 선물"
     ],
-    "imageURL": "dove.png"
+    "imageURL": "dove.png",
+    "release": "2019-02-31"
   },
   {
     "id": 47,
     "name": "토네이도 당근로켓",
     "grade": "Epic",
     "skills": ["10.0초마다 발사, 당근 조각 젤리 49,200점"],
-    "imageURL": "carrotrocket.png"
+    "imageURL": "carrotrocket.png",
+    "release": "2019-02-27"
   },
   {
     "id": 48,
@@ -410,21 +458,24 @@
       "곰젤리 200개 획득시 곰젤리 거대화, 추가 점수 170,000점",
       "모든 곰젤리 점수 1,500점 추가"
     ],
-    "imageURL": "bean.png"
+    "imageURL": "bean.png",
+    "release": "2019-03-13"
   },
   {
     "id": 49,
     "name": "불타는 불고구마",
     "grade": "Epic",
     "skills": ["불고구마 젤리 1,000,000점", "10초마다 생성"],
-    "imageURL": "burnsweetpotato.png"
+    "imageURL": "burnsweetpotato.png",
+    "release": "2019-03-28"
   },
   {
     "id": 50,
     "name": "우유속에 초코샌드",
     "grade": "Epic",
     "skills": ["초코샌드 젤리마다 295,200점 부여", "5.0초마다 젤리 생성"],
-    "imageURL": "chocosand.png"
+    "imageURL": "chocosand.png",
+    "release": "2019-04-19"
   },
   {
     "id": 51,
@@ -435,7 +486,8 @@
       "1000코인으로 2번까지 업그레이드 가능",
       "4단계까지 업그레이드 가능, 4단계 칩 1,200,000점"
     ],
-    "imageURL": "ionchip.png"
+    "imageURL": "ionchip.png",
+    "release": "2019-04-29"
   },
   {
     "id": 52,
@@ -446,7 +498,8 @@
       "발동 중 모든 젤리 600점 추가, 22,200점 전자 젤리 생성",
       "전자 젤리 12개 추가 생성"
     ],
-    "imageURL": "cube.png"
+    "imageURL": "cube.png",
+    "release": "2019-05-15"
   },
   {
     "id": 53,
@@ -456,21 +509,24 @@
       "14.5초마다 공룡알 생성, 공룡발바닥 젤리 100,000점 추가",
       "공룡알 획득시 305,000점 추가"
     ],
-    "imageURL": "babydino.png"
+    "imageURL": "babydino.png",
+    "release": "2019-05-30"
   },
   {
     "id": 54,
     "name": "불꽃 고리반지",
     "grade": "Epic",
     "skills": ["18.8초마다 불의 기운 폭발, 폭발점수 1,800,000점"],
-    "imageURL": "firering.png"
+    "imageURL": "firering.png",
+    "release": "2019-06-14"
   },
   {
     "id": 55,
     "name": "수련의 두루마리",
     "grade": "Epic",
     "skills": ["12단계 수련과제 등장", "축하불꽃 젤리 24개"],
-    "imageURL": "paper.png"
+    "imageURL": "paper.png",
+    "release": "2019-06-28"
   },
   {
     "id": 56,
@@ -480,7 +536,8 @@
       "17초마다 등장, 복숭아 젤리 126,000점",
       "30% 확률로 거대 복숭아 젤리 등장"
     ],
-    "imageURL": "peachseed.png"
+    "imageURL": "peachseed.png",
+    "release": "2019-07-15"
   },
   {
     "id": 57,
@@ -490,7 +547,8 @@
       "16.3초마다 양탄자 소환, 하얀 요그트크림 젤리 83,800점 추가",
       "하얀 요거트크림 젤리 40개 생성"
     ],
-    "imageURL": "magiccarpet.png"
+    "imageURL": "magiccarpet.png",
+    "release": "2019-07-30"
   },
   {
     "id": 58,
@@ -500,35 +558,40 @@
       "16초마다 호두 젤리 생성, 호두 알맹이 젤리 1,000,000점 추가",
       "호두 젤리 450,000점 추가"
     ],
-    "imageURL": "nuthammer.png"
+    "imageURL": "nuthammer.png",
+    "release": "2019-08-28"
   },
   {
     "id": 59,
     "name": "마그마 펜듈럼",
     "grade": "Epic",
     "skills": ["19초마다 마그마 폭발, 마그마 젤리 71,700점"],
-    "imageURL": "magma.png"
+    "imageURL": "magma.png",
+    "release": "2019-09-26"
   },
   {
     "id": 60,
     "name": "젤리크림 거품기",
     "grade": "Epic",
     "skills": ["11초마다 생성, 컵케이크 젤리 1,000,000점"],
-    "imageURL": "whipping.png"
+    "imageURL": "whipping.png",
+    "release": "2019-10-24"
   },
   {
     "id": 61,
     "name": "만능 찰칵 카메라",
     "grade": "Epic",
     "skills": ["18초마다 찰칵, 사진 점수 1,800,000점"],
-    "imageURL": "camera.png"
+    "imageURL": "camera.png",
+    "release": "2019-11-26"
   },
   {
     "id": 62,
     "name": "보라광선 수정구슬",
     "grade": "Epic",
     "skills": ["14.1초마다 광선 발사, 보랏빛 젤리 72,000점 추가"],
-    "imageURL": "bora.png"
+    "imageURL": "bora.png",
+    "release": "2019-12-31"
   },
   {
     "id": 63,
@@ -538,41 +601,47 @@
       "일정거리마다 젤리 베기, 조각난 젤리 점수 270,000점 추가",
       "젤리 베기 점수 96,000점 추가"
     ],
-    "imageURL": "sword.png"
+    "imageURL": "sword.png",
+    "release": "2020-01-30"
   },
   {
     "id": 64,
     "name": "둥글연두 완두콩총",
     "grade": "Epic",
     "skills": ["14.4초마다 채소 도둑 출현, 양배추 젤리 2,000,000점"],
-    "imageURL": "beangun.png"
+    "imageURL": "beangun.png",
+    "release": "2020-02-27"
   },
   {
     "id": 65,
     "name": "생생 생과일주스",
     "grade": "Epic",
     "skills": ["6.5초마다 과일 젤리 생성, 과일 젤리 350,000점"],
-    "imageURL": "juice.png"
+    "imageURL": "juice.png",
+    "release": "2020-03-27"
   },
   {
     "id": 66,
     "name": "엄마의 애플파이",
     "grade": "Special",
     "skills": ["모든 젤리 점수 570점 추가"],
-    "imageURL": "applepie.png"
+    "imageURL": "applepie.png",
+    "release": "2018-11-29"
   },
   {
     "id": 67,
     "name": "정성으로 만든 키티 도시락",
     "grade": "Special",
     "skills": ["아이템 지속시간 22% 증가"],
-    "imageURL": "kitty.png"
+    "imageURL": "kitty.png",
+    "release": "2018-11-29"
   },
   {
     "id": 68,
     "name": "키티의 달콤한 캔디상자",
     "grade": "Special",
     "skills": ["노란곰젤리 3,800점, 분홍곰젤리 5,700점 추가"],
-    "imageURL": "candybox.png"
+    "imageURL": "candybox.png",
+    "release": "2018-11-29"
   }
 ]

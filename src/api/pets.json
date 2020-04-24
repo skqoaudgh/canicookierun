@@ -76,7 +76,11 @@
     "name": "스포트라이트",
     "grade": "Rare",
     "partner": 9,
-    "skills": ["스포트라이트 발동", "(장애물 충돌 무시, 자력)", "(체력 감소 느려짐)"],
+    "skills": [
+      "스포트라이트 발동",
+      "(장애물 충돌 무시, 자력)",
+      "(체력 감소 느려짐)"
+    ],
     "imageURL": "spotlight.png"
   },
   {
@@ -620,7 +624,10 @@
     "name": "BB 건전지",
     "grade": "Epic",
     "partner": 77,
-    "skills": ["일정 체력 밑으로 내려갈 때마다 최대 3회 체력 회복", "이어달리기 쿠키 최대 1회 체력 회복"],
+    "skills": [
+      "일정 체력 밑으로 내려갈 때마다 최대 3회 체력 회복",
+      "이어달리기 쿠키 최대 1회 체력 회복"
+    ],
     "imageURL": "bbpower.png"
   },
   {
@@ -676,7 +683,11 @@
     "name": "막지마라",
     "grade": "Epic",
     "partner": 84,
-    "skills": ["색색 마라탕", "(빨간재료: 광속질주 물약 생성)", "(하얀재료: 회복 물약 생성)"],
+    "skills": [
+      "색색 마라탕",
+      "(빨간재료: 광속질주 물약 생성)",
+      "(하얀재료: 회복 물약 생성)"
+    ],
     "imageURL": "dontblock.png"
   },
   {
@@ -789,7 +800,8 @@
     "grade": "Legendary",
     "partner": -1,
     "skills": ["불새깃털젤리 생성", "쿠키와 이어달리키 쿠키 1회 부활"],
-    "imageURL": "magma.png"
+    "imageURL": "magma.png",
+    "release": "2018-04-28"
   },
   {
     "id": 99,
@@ -797,7 +809,8 @@
     "grade": "Legendary",
     "partner": -1,
     "skills": ["거대 골렘으로 변신", "(장애물 파괴, 바위젤리 생성)"],
-    "imageURL": "emerald.png"
+    "imageURL": "emerald.png",
+    "release": "2018-04-28"
   },
   {
     "id": 100,
@@ -805,29 +818,43 @@
     "grade": "Legendary",
     "partner": -1,
     "skills": ["푸른 회오리 소환", "(자력, 장애물 파괴, 체력 회복)"],
-    "imageURL": "blue.png"
+    "imageURL": "blue.png",
+    "release": "2018-07-27"
   },
   {
     "id": 101,
     "name": "눈폭풍 예티",
     "grade": "Legendary",
     "partner": -1,
-    "skills": ["눈뭉치 폭탄", "(장애물 파괴, 눈덩이젤리 생성)" , "(체력 감소 일시중지)"],
-    "imageURL": "yetty.png"
+    "skills": [
+      "눈뭉치 폭탄",
+      "(장애물 파괴, 눈덩이젤리 생성)",
+      "(체력 감소 일시중지)"
+    ],
+    "imageURL": "yetty.png",
+    "release": "2010-08-13"
   },
   {
     "id": 102,
+    "name": "파인 여우원숭이",
+    "grade": "Epic",
+    "partner": 103,
+    "skills": ["8초마다 몸통박치기", "(장애물 파괴, 작은 대지 파편 젤리 생성)"],
+    "imageURL": "foxmonkey.png"
+  },
+  {
+    "id": 103,
     "name": "키티의 빨간사과",
     "grade": "Special",
-    "partner": 103,
+    "partner": 104,
     "skills": ["체력 회복 아이템", "사과젤리파티 아이템을 순서대로 생성"],
     "imageURL": "kittyapple.png"
   },
   {
-    "id": 103,
+    "id": 104,
     "name": "미미의 노란꽃",
     "grade": "Special",
-    "partner": 104,
+    "partner": 105,
     "skills": ["꽃젤리 생성"],
     "imageURL": "mimmypot.png"
   }
