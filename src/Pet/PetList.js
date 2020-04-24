@@ -2,13 +2,32 @@ import React from 'react';
 import PetItem from './PetItem.js';
 import '../Cookie/List.css';
 
-const PetList = ({ cookies, pets, grade, search }) => {
+const PetList = ({ cookies, pets, grade, search, order }) => {
   let filteredPets =
-    search === '' ? pets : pets.filter((pet) => pet.name.indexOf(search) > -1);
+    search === ''
+      ? JSON.parse(JSON.stringify(pets))
+      : pets.filter((pet) => pet.name.indexOf(search) > -1);
   filteredPets =
     grade === 'allGrade'
       ? filteredPets
       : filteredPets.filter((pet) => pet.grade === grade);
+
+  switch (order) {
+    case 'release_asc':
+      filteredPets.sort((a, b) => a.release - b.release);
+      break;
+    case 'release_desc':
+      filteredPets.sort((a, b) => b.release - a.release);
+      break;
+    case 'name_asc':
+      filteredPets.sort((a, b) => a.name.localeCompare(b.name));
+      break;
+    case 'name_desc':
+      filteredPets.sort((a, b) => b.name.localeCompare(a.name));
+      break;
+    default:
+      break;
+  }
 
   return (
     <React.Fragment>

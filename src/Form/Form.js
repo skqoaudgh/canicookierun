@@ -8,6 +8,8 @@ const Form = ({
   grade,
   handleGradeChange,
   handleSummit,
+  order,
+  handleOrderChange,
 }) => {
   return (
     <div className="formWrapper">
@@ -46,6 +48,27 @@ const Form = ({
           placeholder="검색어를 입력하세요"
           onKeyUp={handleSummit}
         />
+      </div>
+      <div className="selectList">
+        <div>
+          {type === 'cookie' ? (
+            <select value={order} onChange={handleOrderChange}>
+              <option value="release_asc">출시일 ▲</option>
+              <option value="release_desc">출시일 ▼</option>
+              <option value="name_asc">이름 ▲</option>
+              <option value="name_desc">이름 ▼</option>
+              <option value="health_asc">최대체력 ▲</option>
+              <option value="health_desc">최대체력 ▼</option>
+            </select>
+          ) : (
+            <select value={order} onChange={handleOrderChange}>
+              <option value="release_asc">출시일 ▲</option>
+              <option value="release_desc">출시일 ▼</option>
+              <option value="name_asc">이름 ▲</option>
+              <option value="name_desc">이름 ▼</option>
+            </select>
+          )}
+        </div>
       </div>
     </div>
   );

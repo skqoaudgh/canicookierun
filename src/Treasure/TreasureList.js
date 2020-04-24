@@ -2,7 +2,7 @@ import React from 'react';
 import TreasureItem from './TreasureItem.js';
 import '../Cookie/List.css';
 
-const TreasureList = ({ treasures, grade, search }) => {
+const TreasureList = ({ treasures, grade, search, order }) => {
   let filteredTreaures =
     search === ''
       ? treasures
@@ -11,6 +11,23 @@ const TreasureList = ({ treasures, grade, search }) => {
     grade === 'allGrade'
       ? filteredTreaures
       : filteredTreaures.filter((treaure) => treaure.grade === grade);
+
+  switch (order) {
+    case 'release_asc':
+      filteredTreaures.sort((a, b) => a.release - b.release);
+      break;
+    case 'release_desc':
+      filteredTreaures.sort((a, b) => b.release - a.release);
+      break;
+    case 'name_asc':
+      filteredTreaures.sort((a, b) => a.name.localeCompare(b.name));
+      break;
+    case 'name_desc':
+      filteredTreaures.sort((a, b) => b.name.localeCompare(a.name));
+      break;
+    default:
+      break;
+  }
 
   return (
     <React.Fragment>

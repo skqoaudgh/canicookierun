@@ -15,6 +15,7 @@ function App() {
   const [type, setType] = useState('cookie');
   const [grade, setGrade] = useState('allGrade');
   const [search, setSearch] = useState('');
+  const [order, setOrder] = useState('release_asc');
 
   function handleTypeChange(event) {
     setType(event.target.value);
@@ -34,6 +35,10 @@ function App() {
     }
   }
 
+  function handleOrderChange(event) {
+    setOrder(event.target.value);
+  }
+
   return (
     <div className="main">
       <h1>Can I Cookie Run?</h1>
@@ -44,6 +49,8 @@ function App() {
           grade={grade}
           handleGradeChange={handleGradeChange}
           handleSummit={handleSummit}
+          order={order}
+          handleOrderChange={handleOrderChange}
         />
         <main className="list">
           {type === 'allType' ? (
@@ -53,17 +60,20 @@ function App() {
                 pets={pets}
                 grade={grade}
                 search={search}
+                order={order}
               />
               <PetList
                 cookies={cookies}
                 pets={pets}
                 grade={grade}
                 search={search}
+                order={order}
               />
               <TreasureList
                 treasures={treasures}
                 grade={grade}
                 search={search}
+                order={order}
               />
             </React.Fragment>
           ) : type === 'cookie' ? (
@@ -72,6 +82,7 @@ function App() {
               pets={pets}
               grade={grade}
               search={search}
+              order={order}
             />
           ) : type === 'pet' ? (
             <PetList
@@ -79,6 +90,7 @@ function App() {
               pets={pets}
               grade={grade}
               search={search}
+              order={order}
             />
           ) : (
             <TreasureList treasures={treasures} grade={grade} search={search} />
