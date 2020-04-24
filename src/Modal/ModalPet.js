@@ -30,7 +30,7 @@ const ModalPet = ({ cookie, left, top, scrollPosition }) => {
   return (
     <div ref={container} className="modal" style={position}>
       <section className="modalItem">
-        <figure className="imageWrapper">
+        <figure className="imageWrapper-cookie">
           <LazyLoadImage
             src={require(`../assets/cookie/${cookie.imageURL}`)}
             alt={cookie.name}
