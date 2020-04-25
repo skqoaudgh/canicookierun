@@ -44,7 +44,9 @@ const ModalPet = ({ cookie, left, top, scrollPosition }) => {
           <div className="info-title">
             <div className="info-first">
               <span className="itemName">{cookie.name}</span>
-              <strong>{cookie.grade}</strong>
+              <div className={`gradeContainer ${cookie.grade}`}>
+                <strong>{cookie.grade}</strong>
+              </div>
             </div>
           </div>
           <ul className="info-detail">

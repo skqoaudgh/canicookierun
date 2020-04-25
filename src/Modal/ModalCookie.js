@@ -51,7 +51,9 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top, scrollPosition }) => {
               <div className="info-title">
                 <div className="info-first">
                   <span className="itemName">{pet.name}</span>
-                  <strong>{pet.grade}</strong>
+                  <div className={`gradeContainer ${pet.grade}`}>
+                    <strong>{pet.grade}</strong>
+                  </div>
                 </div>
               </div>
               <div className="info-detail">

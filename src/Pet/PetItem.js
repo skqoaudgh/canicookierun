@@ -53,7 +53,9 @@ const PetItem = ({ cookie, pet, scrollPosition }) => {
           <div className="info-title">
             <div className="info-first">
               <span className="itemName">{pet.name}</span>
-              <strong>{pet.grade}</strong>
+              <div className={`gradeContainer ${pet.grade}`}>
+                <strong>{pet.grade}</strong>
+              </div>
             </div>
             {pet.partner !== -1 ? (
               <span

@@ -88,11 +88,43 @@ li .item {
   cursor: pointer;
 }
 
-.info-title strong {
-  font-size: 14px;
-  color: #f1b18f;
+.gradeContainer {
   text-align: left;
+}
+
+.gradeContainer strong {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
   margin-bottom: 0.5rem;
+  padding: 0.1rem 1rem 0.1rem 1rem;
+  border-radius: 12px;
+}
+
+.Common strong {
+  background-color: RGB(163, 125, 73);
+}
+
+.Rare strong {
+  background-color: RGB(60, 111, 156);
+}
+
+.Epic strong {
+  background-color: RGB(157, 62, 145);
+}
+
+.Legendary strong {
+  background: linear-gradient(
+    to right,
+    RGB(138, 252, 175),
+    RGB(109, 192, 249),
+    RGB(229, 101, 245)
+  );
+}
+
+.Special strong {
+  background: linear-gradient(to right, RGB(247, 214, 23), RGB(255, 137, 3));
 }
 
 .info-first {

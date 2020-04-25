@@ -58,7 +58,9 @@ const CookieItem = ({ cookie, pet, scrollPosition }) => {
             <div className="info-title">
               <div className="info-first">
                 <span className="itemName">{cookie.name}</span>
-                <strong>{cookie.grade}</strong>
+                <div className={`gradeContainer ${cookie.grade}`}>
+                  <strong>{cookie.grade}</strong>
+                </div>
               </div>
               {cookie.partner !== -1 ? (
                 <span

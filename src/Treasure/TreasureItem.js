@@ -31,7 +31,9 @@ const treasureItem = ({ treasure, scrollPosition }) => {
           <div className="info-title">
             <div className="info-first">
               <span className="itemName">{treasure.name}</span>
-              <strong>{treasure.grade}</strong>
+              <div className={`gradeContainer ${treasure.grade}`}>
+                <strong>{treasure.grade}</strong>
+              </div>
             </div>
           </div>
           <div className="info-detail">
