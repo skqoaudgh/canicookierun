@@ -21,7 +21,7 @@ const ModalPet = ({ cookie, left, top, scrollPosition }) => {
 
   useEffect(() => {
     setPosition({
-      left: left - container.current.offsetWidth + 20,
+      left: left - container.current.offsetWidth / 1.5,
       top: top,
       visibility: 'visible',
     });

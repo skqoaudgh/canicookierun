@@ -26,7 +26,7 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top, scrollPosition }) => {
   useEffect(() => {
     if (container.current) {
       setPosition({
-        left: left - container.current.offsetWidth + 20,
+        left: left - container.current.offsetWidth / 1.5,
         top: top,
         visibility: 'visible',
       });
