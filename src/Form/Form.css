@@ -69,6 +69,11 @@
   width: 12rem;
   margin-right: 1rem;
   padding-left: 0.8rem;
+  border: 2px solid transparent;
+}
+
+.searchForm input:focus {
+  border: 2px solid #ce6d39;
 }
 
 @media (max-width: 526px) {
