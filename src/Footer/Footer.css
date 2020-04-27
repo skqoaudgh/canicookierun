@@ -5,9 +5,14 @@
 
 #footer a {
   text-decoration: none;
-  color: #CE6D39;
+  color: #ce6d39;
 }
 
 #footer a:hover {
   color: #aa582b;
+}
+
+#footer span {
+  color: #aa582b;
+  margin: 0 0.5rem 0 0.5rem;
 }
