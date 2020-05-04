@@ -857,5 +857,21 @@
     "partner": 105,
     "skills": ["꽃젤리 생성"],
     "imageURL": "mimmypot.png"
+  },
+  {
+    "id": 105,
+    "name": "토끼사과",
+    "grade": "Epic",
+    "partner": 106,
+    "skills": ["깡총깡총(점수 획득)"],
+    "imageURL": "rabbitapple.png"
+  },
+  {
+    "id": 106,
+    "name": "플레이블록",
+    "grade": "Special",
+    "partner": 107,
+    "skills": ["포인트(체력 회복, 점수 획득)"],
+    "imageURL": "playblock.png"
   }
 ]

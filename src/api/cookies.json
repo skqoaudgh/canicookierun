@@ -1376,5 +1376,31 @@
     "unlockCondition": "콜라보 이벤트 쿠키",
     "imageURL": "mimmy.png",
     "release": "2018-11-29"
+  },
+  {
+    "id": 106,
+    "name": "풋사과맛 쿠키",
+    "grade": "Epic",
+    "partner": 105,
+    "bonus": "방울 점수 +2,500,000점",
+    "health": "164~290",
+    "skill": "방울방울",
+    "candySkill": "사과 풍선",
+    "unlockCondition": "없음",
+    "imageURL": "apple.png",
+    "release": "2020-04-29"
+  },
+  {
+    "id": 107,
+    "name": "쿠키로이드",
+    "grade": "Special",
+    "partner": 106,
+    "bonus": "게임 어플 실행점수 +5,000,000점",
+    "health": "189~315",
+    "skill": "게임 어플",
+    "candySkill": "없음",
+    "unlockCondition": "없음",
+    "imageURL": "cookieroid.png",
+    "release": "2020-05-01"
   }
 ]
