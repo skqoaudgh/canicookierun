@@ -10,6 +10,7 @@ const Form = () => {
     handleTypeChange,
     grade,
     handleGradeChange,
+    search,
     handleSummit,
     order,
     handleOrderChange,
@@ -49,7 +50,8 @@ const Form = () => {
         <input
           type="text"
           placeholder="검색어를 입력하세요"
-          onKeyUp={handleSummit}
+          onChange={handleSummit}
+          value={search}
         />
       </div>
       <div className="selectList">

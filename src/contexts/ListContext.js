@@ -24,10 +24,7 @@ const ListContextProvider = (props) => {
   };
 
   const handleSummit = (event) => {
-    if (event.keyCode === 13) {
-      event.preventDefault();
-      setSearch(event.target.value);
-    }
+    setSearch(event.target.value);
   };
 
   const handleOrderChange = (event) => {
