@@ -1,58 +1,27 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useContext } from 'react';
 
 import CookieList from './Cookie/CookieList';
 import PetList from './Pet/PetList';
 import TreasureList from './Treasure/TreasureList';
+import { ListContext } from '../../contexts/ListContext';
 
-const MainList = ({ type, cookies, pets, treasures, grade, search, order }) => {
+const MainList = () => {
+  const { type } = useContext(ListContext);
+
   return (
     <Fragment>
       {type === 'allType' ? (
         <React.Fragment>
-          <CookieList
-            cookies={cookies}
-            pets={pets}
-            grade={grade}
-            search={search}
-            order={order}
-          />
-          <PetList
-            cookies={cookies}
-            pets={pets}
-            grade={grade}
-            search={search}
-            order={order}
-          />
-          <TreasureList
-            treasures={treasures}
-            grade={grade}
-            search={search}
-            order={order}
-          />
+          <CookieList />
+          <PetList />
+          <TreasureList />
         </React.Fragment>
       ) : type === 'cookie' ? (
-        <CookieList
-          cookies={cookies}
-          pets={pets}
-          grade={grade}
-          search={search}
-          order={order}
-        />
+        <CookieList />
       ) : type === 'pet' ? (
-        <PetList
-          cookies={cookies}
-          pets={pets}
-          grade={grade}
-          search={search}
-          order={order}
-        />
+        <PetList />
       ) : (
-        <TreasureList
-          treasures={treasures}
-          grade={grade}
-          search={search}
-          order={order}
-        />
+        <TreasureList />
       )}
     </Fragment>
   );

@@ -4,27 +4,11 @@ import Form from './Form/Form';
 
 import './Header.css';
 
-const Header = ({
-  type,
-  handleTypeChange,
-  grade,
-  handleGradeChange,
-  handleSummit,
-  order,
-  handleOrderChange,
-}) => {
+const Header = () => {
   return (
     <Fragment>
       <h1>Can I Cookie Run?</h1>
-      <Form
-        type={type}
-        handleTypeChange={handleTypeChange}
-        grade={grade}
-        handleGradeChange={handleGradeChange}
-        handleSummit={handleSummit}
-        order={order}
-        handleOrderChange={handleOrderChange}
-      />
+      <Form />
     </Fragment>
   );
 };

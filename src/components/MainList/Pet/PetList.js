@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
 import PetItem from './PetItem.js';
+import { ListContext } from '../../../contexts/ListContext';
+
 import '../Cookie/List.css';
 
-const PetList = ({ cookies, pets, grade, search, order }) => {
+const PetList = () => {
+  const { cookies, pets, grade, search, order } = useContext(ListContext);
+
   let filteredPets =
     search === ''
       ? JSON.parse(JSON.stringify(pets))

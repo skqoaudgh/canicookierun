@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import { ListContext } from '../../../contexts/ListContext';
 
 import './Form.css';
 
-const Form = ({
-  type,
-  handleTypeChange,
-  grade,
-  handleGradeChange,
-  handleSummit,
-  order,
-  handleOrderChange,
-}) => {
+const Form = () => {
+  const {
+    type,
+    handleTypeChange,
+    grade,
+    handleGradeChange,
+    handleSummit,
+    order,
+    handleOrderChange,
+  } = useContext(ListContext);
   return (
     <div className="formWrapper">
       <div className="selectList">

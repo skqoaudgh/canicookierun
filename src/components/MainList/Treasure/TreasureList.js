@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
 import TreasureItem from './TreasureItem.js';
+import { ListContext } from '../../../contexts/ListContext';
+
 import '../Cookie/List.css';
 
-const TreasureList = ({ treasures, grade, search, order }) => {
+const TreasureList = () => {
+  const { treasures, grade, search, order } = useContext(ListContext);
+
   let filteredTreaures =
     search === ''
       ? JSON.parse(JSON.stringify(treasures))

@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
 import CookieItem from './CookieItem.js';
+import { ListContext } from '../../../contexts/ListContext';
+
 import './List.css';
 
-const List = ({ cookies, pets, grade, search, order }) => {
+const CookieList = () => {
+  const { cookies, pets, grade, search, order } = useContext(ListContext);
+
   let filteredCookies =
     search === ''
       ? JSON.parse(JSON.stringify(cookies))
@@ -55,4 +60,4 @@ const List = ({ cookies, pets, grade, search, order }) => {
   );
 };
 
-export default List;
+export default CookieList;
