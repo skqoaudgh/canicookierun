@@ -1,8 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import {
-  LazyLoadImage,
-  trackWindowScroll,
-} from 'react-lazy-load-image-component';
 
 import './Modal.css';
 
@@ -31,13 +27,11 @@ const ModalPet = ({ cookie, left, top, scrollPosition }) => {
     <div ref={container} className="modal" style={position}>
       <section className="modalItem">
         <figure className="imageWrapper-cookie">
-          <LazyLoadImage
+          <img
             src={require(`../../assets/cookie/${cookie.imageURL}`)}
             alt={cookie.name}
             title={cookie.name}
-            effect="opacity"
             onLoad={handleImageLoaded}
-            scrollPosition={scrollPosition}
           />
         </figure>
         <div className="infoWrapper">
@@ -51,46 +45,38 @@ const ModalPet = ({ cookie, left, top, scrollPosition }) => {
           </div>
           <ul className="info-detail">
             <li>
-              <LazyLoadImage
+              <img
                 src={icon_hp}
                 alt="체력"
                 title="체력"
-                effect="opacity"
                 onLoad={handleImageLoaded}
-                scrollPosition={scrollPosition}
               />
               {cookie.health}
             </li>
             <li>
-              <LazyLoadImage
+              <img
                 src={icon_skill}
                 alt="쿠키능력"
                 title="쿠키능력"
-                effect="opacity"
                 onLoad={handleImageLoaded}
-                scrollPosition={scrollPosition}
               />
               {cookie.skill}
             </li>
             <li>
-              <LazyLoadImage
+              <img
                 src={icon_candy}
                 alt="마법사탕"
                 title="마법사탕"
-                effect="opacity"
                 onLoad={handleImageLoaded}
-                scrollPosition={scrollPosition}
               />
               {cookie.candySkill}
             </li>
             <li>
-              <LazyLoadImage
+              <img
                 src={icon_lock}
                 alt="잠금해제"
                 title="잠금해제"
-                effect="opacity"
                 onLoad={handleImageLoaded}
-                scrollPosition={scrollPosition}
               />
               {cookie.unlockCondition}
             </li>
@@ -101,4 +87,4 @@ const ModalPet = ({ cookie, left, top, scrollPosition }) => {
   );
 };
 
-export default trackWindowScroll(ModalPet);
+export default ModalPet;

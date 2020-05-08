@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  LazyLoadImage,
-  trackWindowScroll,
-} from 'react-lazy-load-image-component';
+import LazyLoad from 'react-lazyload';
 
 import '../Cookie/Item.css';
 
@@ -16,58 +13,59 @@ const treasureItem = ({ treasure, scrollPosition }) => {
 
   return (
     <li className="listItem">
-      <section className="item">
-        <figure className="imageWrapper">
-          <LazyLoadImage
-            src={require(`../../../assets/treasure/${treasure.imageURL}`)}
-            alt={treasure.name}
-            title={treasure.name}
-            effect="opacity"
-            onLoad={handleImageLoaded}
-            scrollPosition={scrollPosition}
-          />
-        </figure>
-        <div className="infoWrapper">
-          <div className="info-title">
-            <div className="info-first">
-              <span className="itemName">{treasure.name}</span>
-              <div className={`gradeContainer ${treasure.grade}`}>
-                <strong>{treasure.grade}</strong>
+      <LazyLoad
+        placeholder={
+          <img src={require('../../../assets/icon/empty.png')} alt="..." />
+        }
+        once={true}
+      >
+        <section className="item">
+          <figure className="imageWrapper">
+            <img
+              src={require(`../../../assets/treasure/${treasure.imageURL}`)}
+              alt={treasure.name}
+              title={treasure.name}
+              onLoad={handleImageLoaded}
+            />
+          </figure>
+          <div className="infoWrapper">
+            <div className="info-title">
+              <div className="info-first">
+                <span className="itemName">{treasure.name}</span>
+                <div className={`gradeContainer ${treasure.grade}`}>
+                  <strong>{treasure.grade}</strong>
+                </div>
               </div>
             </div>
+            <div className="info-detail">
+              <ul className="petSkills">
+                {treasure.skills.map((skill, index) => (
+                  <li className="petSkill" key={index}>
+                    {index === 0 ? (
+                      <img
+                        src={icon_skill}
+                        alt="보물효과"
+                        title="보물효과"
+                        onLoad={handleImageLoaded}
+                      />
+                    ) : (
+                      <img
+                        src={icon_empty}
+                        alt="보물효과"
+                        title="보물효과"
+                        onLoad={handleImageLoaded}
+                      />
+                    )}
+                    {skill}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <div className="info-detail">
-            <ul className="petSkills">
-              {treasure.skills.map((skill, index) => (
-                <li className="petSkill" key={index}>
-                  {index === 0 ? (
-                    <LazyLoadImage
-                      src={icon_skill}
-                      alt="보물효과"
-                      title="보물효과"
-                      effect="opacity"
-                      onLoad={handleImageLoaded}
-                      scrollPosition={scrollPosition}
-                    />
-                  ) : (
-                    <LazyLoadImage
-                      src={icon_empty}
-                      alt="보물효과"
-                      title="보물효과"
-                      effect="opacity"
-                      onLoad={handleImageLoaded}
-                      scrollPosition={scrollPosition}
-                    />
-                  )}
-                  {skill}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
+        </section>
+      </LazyLoad>
     </li>
   );
 };
 
-export default trackWindowScroll(treasureItem);
+export default treasureItem;

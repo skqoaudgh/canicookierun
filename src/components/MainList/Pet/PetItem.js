@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import {
-  LazyLoadImage,
-  trackWindowScroll,
-} from 'react-lazy-load-image-component';
+import LazyLoad from 'react-lazyload';
 
 import ModalPet from '../../Modal/ModalPet';
 
@@ -38,67 +35,68 @@ const PetItem = ({ cookie, pet, scrollPosition }) => {
           top={modalPosition[1]}
         />
       ) : null}
-      <section className="item">
-        <figure className="imageWrapper">
-          <LazyLoadImage
-            src={require(`../../../assets/pet/${pet.imageURL}`)}
-            alt={pet.name}
-            title={pet.name}
-            effect="opacity"
-            onLoad={handleImageLoaded}
-            scrollPosition={scrollPosition}
-          />
-        </figure>
-        <div className="infoWrapper">
-          <div className="info-title">
-            <div className="info-first">
-              <span className="itemName">{pet.name}</span>
-              <div className={`gradeContainer ${pet.grade}`}>
-                <strong>{pet.grade}</strong>
+      <LazyLoad
+        placeholder={
+          <img src={require('../../../assets/icon/empty.png')} alt="..." />
+        }
+        once={true}
+      >
+        <section className="item">
+          <figure className="imageWrapper">
+            <img
+              src={require(`../../../assets/pet/${pet.imageURL}`)}
+              alt={pet.name}
+              title={pet.name}
+              onLoad={handleImageLoaded}
+            />
+          </figure>
+          <div className="infoWrapper">
+            <div className="info-title">
+              <div className="info-first">
+                <span className="itemName">{pet.name}</span>
+                <div className={`gradeContainer ${pet.grade}`}>
+                  <strong>{pet.grade}</strong>
+                </div>
               </div>
+              {pet.partner !== -1 ? (
+                <span
+                  className="partner"
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  짝꿍쿠키
+                </span>
+              ) : null}
             </div>
-            {pet.partner !== -1 ? (
-              <span
-                className="partner"
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-              >
-                짝꿍쿠키
-              </span>
-            ) : null}
+            <div className="info-detail">
+              <ul className="petSkills">
+                {pet.skills.map((skill, index) => (
+                  <li className="petSkill" key={index}>
+                    {index === 0 ? (
+                      <img
+                        src={icon_skill}
+                        alt="펫능력"
+                        title="펫능력"
+                        onLoad={handleImageLoaded}
+                      />
+                    ) : (
+                      <img
+                        src={icon_empty}
+                        alt="펫능력"
+                        title="펫능력"
+                        onLoad={handleImageLoaded}
+                      />
+                    )}
+                    {skill}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <div className="info-detail">
-            <ul className="petSkills">
-              {pet.skills.map((skill, index) => (
-                <li className="petSkill" key={index}>
-                  {index === 0 ? (
-                    <LazyLoadImage
-                      src={icon_skill}
-                      alt="펫능력"
-                      title="펫능력"
-                      effect="opacity"
-                      onLoad={handleImageLoaded}
-                      scrollPosition={scrollPosition}
-                    />
-                  ) : (
-                    <LazyLoadImage
-                      src={icon_empty}
-                      alt="펫능력"
-                      title="펫능력"
-                      effect="opacity"
-                      onLoad={handleImageLoaded}
-                      scrollPosition={scrollPosition}
-                    />
-                  )}
-                  {skill}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
+        </section>
+      </LazyLoad>
     </li>
   );
 };
 
-export default trackWindowScroll(PetItem);
+export default PetItem;

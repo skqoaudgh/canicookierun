@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import {
-  LazyLoadImage,
-  trackWindowScroll,
-} from 'react-lazy-load-image-component';
+import LazyLoad from 'react-lazyload';
 
 import ModalCookie from '../../Modal/ModalCookie';
 
@@ -43,86 +40,83 @@ const CookieItem = ({ cookie, pet, scrollPosition }) => {
         top={modalPosition[1]}
       />
       <li className="listItem">
-        <section className="item">
-          <figure className="imageWrapper-cookie">
-            <LazyLoadImage
-              src={require(`../../../assets/cookie/${cookie.imageURL}`)}
-              alt={cookie.name}
-              title={cookie.name}
-              effect="opacity"
-              onLoad={handleImageLoaded}
-              scrollPosition={scrollPosition}
-            />
-          </figure>
-          <div className="infoWrapper">
-            <div className="info-title">
-              <div className="info-first">
-                <span className="itemName">{cookie.name}</span>
-                <div className={`gradeContainer ${cookie.grade}`}>
-                  <strong>{cookie.grade}</strong>
+        <LazyLoad
+          placeholder={
+            <img src={require('../../../assets/icon/empty.png')} alt="..." />
+          }
+          once={true}
+        >
+          <section className="item">
+            <figure className="imageWrapper-cookie">
+              <img
+                src={require(`../../../assets/cookie/${cookie.imageURL}`)}
+                alt={cookie.name}
+                title={cookie.name}
+                onLoad={handleImageLoaded}
+              />
+            </figure>
+            <div className="infoWrapper">
+              <div className="info-title">
+                <div className="info-first">
+                  <span className="itemName">{cookie.name}</span>
+                  <div className={`gradeContainer ${cookie.grade}`}>
+                    <strong>{cookie.grade}</strong>
+                  </div>
                 </div>
+                {cookie.partner !== -1 ? (
+                  <span
+                    className="partner"
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    짝꿍펫
+                  </span>
+                ) : null}
               </div>
-              {cookie.partner !== -1 ? (
-                <span
-                  className="partner"
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
-                >
-                  짝꿍펫
-                </span>
-              ) : null}
+              <ul className="info-detail">
+                <li>
+                  <img
+                    src={icon_hp}
+                    alt="체력"
+                    title="체력"
+                    onLoad={handleImageLoaded}
+                  />
+                  {cookie.health}
+                </li>
+                <li>
+                  <img
+                    src={icon_skill}
+                    alt="쿠키능력"
+                    title="쿠키능력"
+                    onLoad={handleImageLoaded}
+                  />
+                  {cookie.skill}
+                </li>
+                <li>
+                  <img
+                    src={icon_candy}
+                    alt="마법사탕"
+                    title="마법사탕"
+                    onLoad={handleImageLoaded}
+                  />
+                  {cookie.candySkill}
+                </li>
+                <li>
+                  <img
+                    src={icon_lock}
+                    alt="잠금해제"
+                    title="잠금해제"
+                    onLoad={handleImageLoaded}
+                  />
+                  {cookie.unlockCondition}
+                </li>
+              </ul>
             </div>
-            <ul className="info-detail">
-              <li>
-                <LazyLoadImage
-                  src={icon_hp}
-                  alt="체력"
-                  title="체력"
-                  effect="opacity"
-                  onLoad={handleImageLoaded}
-                  scrollPosition={scrollPosition}
-                />
-                {cookie.health}
-              </li>
-              <li>
-                <LazyLoadImage
-                  src={icon_skill}
-                  alt="쿠키능력"
-                  title="쿠키능력"
-                  effect="opacity"
-                  onLoad={handleImageLoaded}
-                  scrollPosition={scrollPosition}
-                />
-                {cookie.skill}
-              </li>
-              <li>
-                <LazyLoadImage
-                  src={icon_candy}
-                  alt="마법사탕"
-                  title="마법사탕"
-                  effect="opacity"
-                  onLoad={handleImageLoaded}
-                  scrollPosition={scrollPosition}
-                />
-                {cookie.candySkill}
-              </li>
-              <li>
-                <LazyLoadImage
-                  src={icon_lock}
-                  alt="잠금해제"
-                  title="잠금해제"
-                  effect="opacity"
-                  onLoad={handleImageLoaded}
-                  scrollPosition={scrollPosition}
-                />
-                {cookie.unlockCondition}
-              </li>
-            </ul>
-          </div>
-        </section>
+          </section>
+        </LazyLoad>
       </li>
     </React.Fragment>
   );
 };
 
-export default trackWindowScroll(CookieItem);
+export default CookieItem;

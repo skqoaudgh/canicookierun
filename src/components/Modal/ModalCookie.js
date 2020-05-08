@@ -1,8 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import {
-  LazyLoadImage,
-  trackWindowScroll,
-} from 'react-lazy-load-image-component';
 
 import './Modal.css';
 
@@ -39,12 +35,10 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top, scrollPosition }) => {
         <div ref={container} className="modal" style={position}>
           <section className="modalItem">
             <figure className="imageWrapper">
-              <LazyLoadImage
+              <img
                 src={require(`../../assets/pet/${pet.imageURL}`)}
                 alt={pet.name}
-                effect="opacity"
                 onLoad={handleImageLoaded}
-                scrollPosition={scrollPosition}
               />
             </figure>
             <div className="infoWrapper">
@@ -63,13 +57,11 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top, scrollPosition }) => {
                       {pet.skills.map((skill, index) => (
                         <li key={index} className="petSkill">
                           {index === 0 ? (
-                            <LazyLoadImage
+                            <img
                               src={icon_skill}
                               alt="펫능력"
                               title="펫능력"
-                              effect="opacity"
                               onLoad={handleImageLoaded}
-                              scrollPosition={scrollPosition}
                             />
                           ) : (
                             <div style={style}></div>
@@ -80,13 +72,11 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top, scrollPosition }) => {
                     </ul>
                   </li>
                   <li>
-                    <LazyLoadImage
+                    <img
                       src={icon_bonus}
                       alt="조합보너스"
                       title="조합보너스"
-                      effect="opacity"
                       onLoad={handleImageLoaded}
-                      scrollPosition={scrollPosition}
                     />
                     {bonus}
                   </li>
@@ -100,4 +90,4 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top, scrollPosition }) => {
   );
 };
 
-export default trackWindowScroll(ModalCookie);
+export default ModalCookie;

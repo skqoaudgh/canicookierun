@@ -1,5 +1,7 @@
 import React, { useContext } from 'react';
+import LazyLoad from 'react-lazyload';
 
+import Spinner from '../Spinner/Spinner';
 import TreasureItem from './TreasureItem.js';
 import { ListContext } from '../../../contexts/ListContext';
 
@@ -43,7 +45,14 @@ const TreasureList = () => {
       <h2 className="itemTitle">보물</h2>
       <ul className="itemList">
         {filteredTreaures.map((treasure) => (
-          <TreasureItem key={treasure.id} treasure={treasure} />
+          <LazyLoad
+            key={treasure.id}
+            height={100}
+            offset={[-100, 100]}
+            placeholder={<Spinner />}
+          >
+            <TreasureItem key={treasure.id} treasure={treasure} />
+          </LazyLoad>
         ))}
       </ul>
     </React.Fragment>

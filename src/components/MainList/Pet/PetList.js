@@ -1,5 +1,7 @@
 import React, { useContext } from 'react';
+import LazyLoad from 'react-lazyload';
 
+import Spinner from '../Spinner/Spinner';
 import PetItem from './PetItem.js';
 import { ListContext } from '../../../contexts/ListContext';
 
@@ -51,7 +53,14 @@ const PetList = () => {
       <h2 className="itemTitle">펫</h2>
       <ul className="itemList">
         {filteredPets.map((pet) => (
-          <PetItem key={pet.id} cookie={cookies[pet.partner]} pet={pet} />
+          <LazyLoad
+            key={pet.id}
+            height={100}
+            offset={[-100, 100]}
+            placeholder={<Spinner />}
+          >
+            <PetItem key={pet.id} cookie={cookies[pet.partner]} pet={pet} />
+          </LazyLoad>
         ))}
       </ul>
     </React.Fragment>

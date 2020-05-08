@@ -1,5 +1,7 @@
 import React, { useContext } from 'react';
+import LazyLoad from 'react-lazyload';
 
+import Spinner from '../Spinner/Spinner';
 import CookieItem from './CookieItem.js';
 import { ListContext } from '../../../contexts/ListContext';
 
@@ -49,11 +51,18 @@ const CookieList = () => {
       <h2 className="itemTitle">쿠키</h2>
       <ul className="itemList">
         {filteredCookies.map((cookie) => (
-          <CookieItem
+          <LazyLoad
             key={cookie.id}
-            cookie={cookie}
-            pet={pets[cookie.partner]}
-          />
+            height={100}
+            offset={[-100, 100]}
+            placeholder={<Spinner />}
+          >
+            <CookieItem
+              key={cookie.id}
+              cookie={cookie}
+              pet={pets[cookie.partner]}
+            />
+          </LazyLoad>
         ))}
       </ul>
     </React.Fragment>
