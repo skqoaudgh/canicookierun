@@ -18,27 +18,27 @@ function App() {
   const [search, setSearch] = useState('');
   const [order, setOrder] = useState('release_asc');
 
-  function handleTypeChange(event) {
+  const handleTypeChange = (event) => {
     setType(event.target.value);
     setGrade('allGrade');
     setSearch('');
-  }
+  };
 
-  function handleGradeChange(event) {
+  const handleGradeChange = (event) => {
     setGrade(event.target.value);
     setSearch('');
-  }
+  };
 
-  function handleSummit(event) {
+  const handleSummit = (event) => {
     if (event.keyCode === 13) {
       event.preventDefault();
       setSearch(event.target.value);
     }
-  }
+  };
 
-  function handleOrderChange(event) {
+  const handleOrderChange = (event) => {
     setOrder(event.target.value);
-  }
+  };
 
   return (
     <div className="main">

@@ -13,20 +13,20 @@ import icon_empty from '../assets/icon/empty.png';
 const PetItem = ({ cookie, pet, scrollPosition }) => {
   const [modalPosition, setModalPosition] = useState([0, 0]);
 
-  function handleImageLoaded(event) {
+  const handleImageLoaded = (event) => {
     event.target.classList.add('loaded');
-  }
+  };
 
-  function handleMouseEnter(event) {
+  const handleMouseEnter = (event) => {
     setModalPosition([
       event.target.offsetLeft,
       event.target.getBoundingClientRect().top + event.target.offsetHeight + 10,
     ]);
-  }
+  };
 
-  function handleMouseLeave(event) {
+  const handleMouseLeave = (event) => {
     setModalPosition([0, 0]);
-  }
+  };
 
   return (
     <li className="listItem">

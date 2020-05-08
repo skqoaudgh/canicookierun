@@ -19,9 +19,9 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top, scrollPosition }) => {
   const container = useRef();
   const [position, setPosition] = useState({ left: 0, top: 0 });
 
-  function handleImageLoaded(event) {
+  const handleImageLoaded = (event) => {
     event.target.classList.add('loaded');
-  }
+  };
 
   useEffect(() => {
     if (container.current) {

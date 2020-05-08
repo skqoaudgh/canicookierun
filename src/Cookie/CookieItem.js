@@ -16,22 +16,22 @@ import icon_lock from '../assets/icon/lock.svg';
 const CookieItem = ({ cookie, pet, scrollPosition }) => {
   const [modalPosition, setModalPosition] = useState([0, 0]);
 
-  function handleImageLoaded(event) {
+  const handleImageLoaded = (event) => {
     event.target.classList.add('loaded');
-  }
+  };
 
-  function handleMouseEnter(event) {
+  const handleMouseEnter = (event) => {
     setModalPosition([
       event.target.offsetLeft,
       event.target.getBoundingClientRect().top + event.target.offsetHeight + 10,
     ]);
-  }
+  };
 
-  function handleMouseLeave(event) {
+  const handleMouseLeave = (event) => {
     if (modalPosition[0] > 0) {
       setModalPosition([0, 0]);
     }
-  }
+  };
 
   return (
     <React.Fragment>

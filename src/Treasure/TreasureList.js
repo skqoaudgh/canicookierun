@@ -12,7 +12,6 @@ const TreasureList = ({ treasures, grade, search, order }) => {
       ? filteredTreaures
       : filteredTreaures.filter((treaure) => treaure.grade === grade);
 
-  console.log(filteredTreaures);
   switch (order) {
     case 'release_asc':
       filteredTreaures.sort(
@@ -33,7 +32,7 @@ const TreasureList = ({ treasures, grade, search, order }) => {
     default:
       break;
   }
-  console.log(filteredTreaures);
+
   return (
     <React.Fragment>
       <h2 className="itemTitle">보물</h2>
