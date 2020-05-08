@@ -6,10 +6,10 @@ import {
 
 import './Modal.css';
 
-import icon_hp from '../assets/icon/heart.svg';
-import icon_skill from '../assets/icon/magic.svg';
-import icon_candy from '../assets/icon/candy.svg';
-import icon_lock from '../assets/icon/lock.svg';
+import icon_hp from '../../assets/icon/heart.svg';
+import icon_skill from '../../assets/icon/magic.svg';
+import icon_candy from '../../assets/icon/candy.svg';
+import icon_lock from '../../assets/icon/lock.svg';
 
 const ModalPet = ({ cookie, left, top, scrollPosition }) => {
   const container = useRef();
@@ -32,7 +32,7 @@ const ModalPet = ({ cookie, left, top, scrollPosition }) => {
       <section className="modalItem">
         <figure className="imageWrapper-cookie">
           <LazyLoadImage
-            src={require(`../assets/cookie/${cookie.imageURL}`)}
+            src={require(`../../assets/cookie/${cookie.imageURL}`)}
             alt={cookie.name}
             title={cookie.name}
             effect="opacity"

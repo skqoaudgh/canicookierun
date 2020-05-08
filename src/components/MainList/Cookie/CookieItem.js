@@ -4,14 +4,14 @@ import {
   trackWindowScroll,
 } from 'react-lazy-load-image-component';
 
-import ModalCookie from '../Modal/ModalCookie';
+import ModalCookie from '../../Modal/ModalCookie';
 
 import './Item.css';
 
-import icon_hp from '../assets/icon/heart.svg';
-import icon_skill from '../assets/icon/magic.svg';
-import icon_candy from '../assets/icon/candy.svg';
-import icon_lock from '../assets/icon/lock.svg';
+import icon_hp from '../../../assets/icon/heart.svg';
+import icon_skill from '../../../assets/icon/magic.svg';
+import icon_candy from '../../../assets/icon/candy.svg';
+import icon_lock from '../../../assets/icon/lock.svg';
 
 const CookieItem = ({ cookie, pet, scrollPosition }) => {
   const [modalPosition, setModalPosition] = useState([0, 0]);
@@ -46,7 +46,7 @@ const CookieItem = ({ cookie, pet, scrollPosition }) => {
         <section className="item">
           <figure className="imageWrapper-cookie">
             <LazyLoadImage
-              src={require(`../assets/cookie/${cookie.imageURL}`)}
+              src={require(`../../../assets/cookie/${cookie.imageURL}`)}
               alt={cookie.name}
               title={cookie.name}
               effect="opacity"

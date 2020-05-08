@@ -4,12 +4,12 @@ import {
   trackWindowScroll,
 } from 'react-lazy-load-image-component';
 
-import ModalPet from '../Modal/ModalPet';
+import ModalPet from '../../Modal/ModalPet';
 
 import '../Cookie/Item.css';
 
-import icon_skill from '../assets/icon/magic.svg';
-import icon_empty from '../assets/icon/empty.png';
+import icon_skill from '../../../assets/icon/magic.svg';
+import icon_empty from '../../../assets/icon/empty.png';
 const PetItem = ({ cookie, pet, scrollPosition }) => {
   const [modalPosition, setModalPosition] = useState([0, 0]);
 
@@ -41,7 +41,7 @@ const PetItem = ({ cookie, pet, scrollPosition }) => {
       <section className="item">
         <figure className="imageWrapper">
           <LazyLoadImage
-            src={require(`../assets/pet/${pet.imageURL}`)}
+            src={require(`../../../assets/pet/${pet.imageURL}`)}
             alt={pet.name}
             title={pet.name}
             effect="opacity"

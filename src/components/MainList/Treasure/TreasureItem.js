@@ -6,8 +6,8 @@ import {
 
 import '../Cookie/Item.css';
 
-import icon_skill from '../assets/icon/magic.svg';
-import icon_empty from '../assets/icon/empty.png';
+import icon_skill from '../../../assets/icon/magic.svg';
+import icon_empty from '../../../assets/icon/empty.png';
 
 const treasureItem = ({ treasure, scrollPosition }) => {
   const handleImageLoaded = (event) => {
@@ -19,7 +19,7 @@ const treasureItem = ({ treasure, scrollPosition }) => {
       <section className="item">
         <figure className="imageWrapper">
           <LazyLoadImage
-            src={require(`../assets/treasure/${treasure.imageURL}`)}
+            src={require(`../../../assets/treasure/${treasure.imageURL}`)}
             alt={treasure.name}
             title={treasure.name}
             effect="opacity"

@@ -6,8 +6,8 @@ import {
 
 import './Modal.css';
 
-import icon_skill from '../assets/icon/magic.svg';
-import icon_bonus from '../assets/icon/bonus.svg';
+import icon_skill from '../../assets/icon/magic.svg';
+import icon_bonus from '../../assets/icon/bonus.svg';
 
 const ModalCookie = ({ isOpen, pet, bonus, left, top, scrollPosition }) => {
   const style = {
@@ -40,7 +40,7 @@ const ModalCookie = ({ isOpen, pet, bonus, left, top, scrollPosition }) => {
           <section className="modalItem">
             <figure className="imageWrapper">
               <LazyLoadImage
-                src={require(`../assets/pet/${pet.imageURL}`)}
+                src={require(`../../assets/pet/${pet.imageURL}`)}
                 alt={pet.name}
                 effect="opacity"
                 onLoad={handleImageLoaded}

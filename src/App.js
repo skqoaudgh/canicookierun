@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 
-import Form from './Form/Form';
-import CookieList from './Cookie/CookieList';
-import PetList from './Pet/PetList';
-import TreasureList from './Treasure/TreasureList';
-import Footer from './Footer/Footer';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import MainList from './components/MainList/MainList';
 
 import cookies from './api/cookies.json';
 import pets from './api/pets.json';
@@ -41,10 +39,9 @@ function App() {
   };
 
   return (
-    <div className="main">
-      <h1>Can I Cookie Run?</h1>
-      <div className="mainWrapper">
-        <Form
+    <Fragment>
+      <header>
+        <Header
           type={type}
           handleTypeChange={handleTypeChange}
           grade={grade}
@@ -53,58 +50,20 @@ function App() {
           order={order}
           handleOrderChange={handleOrderChange}
         />
-        <main className="list">
-          {type === 'allType' ? (
-            <React.Fragment>
-              <CookieList
-                cookies={cookies}
-                pets={pets}
-                grade={grade}
-                search={search}
-                order={order}
-              />
-              <PetList
-                cookies={cookies}
-                pets={pets}
-                grade={grade}
-                search={search}
-                order={order}
-              />
-              <TreasureList
-                treasures={treasures}
-                grade={grade}
-                search={search}
-                order={order}
-              />
-            </React.Fragment>
-          ) : type === 'cookie' ? (
-            <CookieList
-              cookies={cookies}
-              pets={pets}
-              grade={grade}
-              search={search}
-              order={order}
-            />
-          ) : type === 'pet' ? (
-            <PetList
-              cookies={cookies}
-              pets={pets}
-              grade={grade}
-              search={search}
-              order={order}
-            />
-          ) : (
-            <TreasureList
-              treasures={treasures}
-              grade={grade}
-              search={search}
-              order={order}
-            />
-          )}
-        </main>
-      </div>
+      </header>
+      <main>
+        <MainList
+          type={type}
+          cookies={cookies}
+          pets={pets}
+          treasures={treasures}
+          grade={grade}
+          search={search}
+          order={order}
+        />
+      </main>
       <Footer />
-    </div>
+    </Fragment>
   );
 }
 
