@@ -1,6 +1,6 @@
 # [Can I Cookie Run?](https://canicookierun.now.sh/)
 
-모바일 게임 [쿠키런](https://game.devsisters.com/ko/cookierun/)의 쿠키, 펫, 보물 도감입니다.
+[DEVSISTERS](https://www.devsisters.com/ko/)의 모바일 게임 [쿠키런](https://game.devsisters.com/ko/cookierun/)의 쿠키, 펫, 보물 도감입니다.
 
 ## Resources
 * 게임 내 정보
