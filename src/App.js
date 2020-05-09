@@ -10,12 +10,8 @@ import './App.css';
 function App() {
   return (
     <ListContextProvider>
-      <header>
-        <Header />
-      </header>
-      <main>
-        <MainList />
-      </main>
+      <Header />
+      <MainList />
       <Footer />
     </ListContextProvider>
   );
