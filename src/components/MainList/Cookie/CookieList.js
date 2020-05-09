@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import LazyLoad from 'react-lazyload';
 
-import Spinner from '../Spinner/Spinner';
 import CookieItem from './CookieItem.js';
 import { ListContext } from '../../../contexts/ListContext';
 
@@ -55,7 +54,7 @@ const CookieList = () => {
             key={cookie.id}
             height={100}
             offset={[-100, 100]}
-            placeholder={<Spinner />}
+            placeholder={<div />}
           >
             <CookieItem
               key={cookie.id}

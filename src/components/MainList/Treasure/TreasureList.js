@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import LazyLoad from 'react-lazyload';
 
-import Spinner from '../Spinner/Spinner';
 import TreasureItem from './TreasureItem.js';
 import { ListContext } from '../../../contexts/ListContext';
 
@@ -49,7 +48,7 @@ const TreasureList = () => {
             key={treasure.id}
             height={100}
             offset={[-100, 100]}
-            placeholder={<Spinner />}
+            placeholder={<div />}
           >
             <TreasureItem key={treasure.id} treasure={treasure} />
           </LazyLoad>

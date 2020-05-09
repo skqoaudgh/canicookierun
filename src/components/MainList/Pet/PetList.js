@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import LazyLoad from 'react-lazyload';
 
-import Spinner from '../Spinner/Spinner';
 import PetItem from './PetItem.js';
 import { ListContext } from '../../../contexts/ListContext';
 
@@ -57,7 +56,7 @@ const PetList = () => {
             key={pet.id}
             height={100}
             offset={[-100, 100]}
-            placeholder={<Spinner />}
+            placeholder={<div />}
           >
             <PetItem key={pet.id} cookie={cookies[pet.partner]} pet={pet} />
           </LazyLoad>

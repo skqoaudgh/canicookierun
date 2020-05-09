@@ -1,4 +1,4 @@
-import React, { Fragment, useContext } from 'react';
+import React, { useContext } from 'react';
 
 import CookieList from './Cookie/CookieList';
 import PetList from './Pet/PetList';
@@ -9,7 +9,7 @@ const MainList = () => {
   const { type } = useContext(ListContext);
 
   return (
-    <Fragment>
+    <main>
       {type === 'allType' ? (
         <React.Fragment>
           <CookieList />
@@ -23,7 +23,7 @@ const MainList = () => {
       ) : (
         <TreasureList />
       )}
-    </Fragment>
+    </main>
   );
 };
 

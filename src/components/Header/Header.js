@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import Form from './Form/Form';
 
@@ -6,10 +6,10 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <Fragment>
+    <header>
       <h1>Can I Cookie Run?</h1>
       <Form />
-    </Fragment>
+    </header>
   );
 };
 
