@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import LazyLoad from 'react-lazyload';
+import React, { useContext, useEffect } from 'react';
+import LazyLoad, { forceCheck } from 'react-lazyload';
 
 import CookieItem from './CookieItem.js';
 import { ListContext } from '../../../contexts/ListContext';
@@ -45,17 +45,14 @@ const CookieList = () => {
       break;
   }
 
+  useEffect(() => forceCheck(), [filteredCookies]);
+
   return (
     <React.Fragment>
       <h2 className="itemTitle">쿠키</h2>
       <ul className="itemList">
         {filteredCookies.map((cookie) => (
-          <LazyLoad
-            key={cookie.id}
-            height={100}
-            offset={[-100, 100]}
-            placeholder={<div />}
-          >
+          <LazyLoad key={cookie.id} height={100} placeholder={<div />}>
             <CookieItem
               key={cookie.id}
               cookie={cookie}

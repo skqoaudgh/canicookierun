@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import LazyLoad from 'react-lazyload';
+import React, { useContext, useEffect } from 'react';
+import LazyLoad, { forceCheck } from 'react-lazyload';
 
 import TreasureItem from './TreasureItem.js';
 import { ListContext } from '../../../contexts/ListContext';
@@ -38,6 +38,8 @@ const TreasureList = () => {
     default:
       break;
   }
+
+  useEffect(() => forceCheck(), [filteredTreaures]);
 
   return (
     <React.Fragment>

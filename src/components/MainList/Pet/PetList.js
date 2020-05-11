@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import LazyLoad from 'react-lazyload';
+import React, { useContext, useEffect } from 'react';
+import LazyLoad, { forceCheck } from 'react-lazyload';
 
 import PetItem from './PetItem.js';
 import { ListContext } from '../../../contexts/ListContext';
@@ -46,6 +46,8 @@ const PetList = () => {
     default:
       break;
   }
+
+  useEffect(() => forceCheck(), [filteredPets]);
 
   return (
     <React.Fragment>
