@@ -6,7 +6,7 @@ import '../Cookie/Item.css';
 import icon_skill from '../../../assets/icon/magic.svg';
 import icon_empty from '../../../assets/icon/empty.png';
 
-const treasureItem = ({ treasure, scrollPosition }) => {
+const treasureItem = ({ treasure }) => {
   const handleImageLoaded = (event) => {
     event.target.classList.add('loaded');
   };

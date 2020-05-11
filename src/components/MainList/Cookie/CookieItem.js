@@ -10,7 +10,7 @@ import icon_skill from '../../../assets/icon/magic.svg';
 import icon_candy from '../../../assets/icon/candy.svg';
 import icon_lock from '../../../assets/icon/lock.svg';
 
-const CookieItem = ({ cookie, pet, scrollPosition }) => {
+const CookieItem = ({ cookie, pet }) => {
   const [modalPosition, setModalPosition] = useState([0, 0]);
 
   const handleImageLoaded = (event) => {

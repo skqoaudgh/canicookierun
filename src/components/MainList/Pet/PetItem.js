@@ -7,7 +7,7 @@ import '../Cookie/Item.css';
 
 import icon_skill from '../../../assets/icon/magic.svg';
 import icon_empty from '../../../assets/icon/empty.png';
-const PetItem = ({ cookie, pet, scrollPosition }) => {
+const PetItem = ({ cookie, pet }) => {
   const [modalPosition, setModalPosition] = useState([0, 0]);
 
   const handleImageLoaded = (event) => {
