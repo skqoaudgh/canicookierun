@@ -28,7 +28,6 @@ li .item {
   min-height: 10rem;
 }
 
-.imageWrapper-cookie,
 .imageWrapper {
   min-width: 8rem;
   width: 8rem;
@@ -39,16 +38,6 @@ li .item {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.imageWrapper img {
-  width: 50%;
-  height: 50%;
-}
-
-.imageWrapper-cookie img {
-  width: 60%;
-  height: 70%;
 }
 
 .infoWrapper {
