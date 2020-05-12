@@ -15,6 +15,7 @@ const ListContextProvider = (props) => {
   const handleTypeChange = (event) => {
     setType(event.target.value);
     setGrade('allGrade');
+    setOrder('release_asc');
     setSearch('');
   };
 
