@@ -5,11 +5,20 @@ import Item from './Item.js';
 
 import './List.css';
 
-const List = ({ title, type, list }) => {
+const List = ({ title, type, list, display }) => {
   useEffect(() => forceCheck(), [list]);
 
+  const hidden = {
+    display: 'none',
+  };
+
+  const visibility = {
+    display: 'block',
+    visibility: 'visible',
+  };
+
   return (
-    <React.Fragment>
+    <div style={display === 'none' ? hidden : visibility}>
       <h2 className="itemTitle">{title}</h2>
       <ul className="itemList">
         {list.map((item) => (
@@ -23,7 +32,7 @@ const List = ({ title, type, list }) => {
           </LazyLoad>
         ))}
       </ul>
-    </React.Fragment>
+    </div>
   );
 };
 

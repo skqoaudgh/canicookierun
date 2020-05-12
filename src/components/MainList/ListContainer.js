@@ -31,19 +31,24 @@ const ListContainer = () => {
 
   return (
     <main>
-      {type === 'allType' ? (
-        <React.Fragment>
-          <List title="쿠키" type="cookie" list={filteredCookies} />
-          <List title="펫" type="pet" list={filteredPets} />
-          <List title="보물" type="treasure" list={filteredTreasures} />
-        </React.Fragment>
-      ) : type === 'cookie' ? (
-        <List title="쿠키" type="cookie" list={filteredCookies} />
-      ) : type === 'pet' ? (
-        <List title="펫" type="pet" list={filteredPets} />
-      ) : (
-        <List title="보물" type="treasure" list={filteredTreasures} />
-      )}
+      <List
+        title="쿠키"
+        type="cookie"
+        list={filteredCookies}
+        display={type === 'allType' || type === 'cookie' ? 'visible' : 'none'}
+      />
+      <List
+        title="펫"
+        type="pet"
+        list={filteredPets}
+        display={type === 'allType' || type === 'pet' ? 'visible' : 'none'}
+      />
+      <List
+        title="보물"
+        type="treasure"
+        list={filteredTreasures}
+        display={type === 'allType' || type === 'treasure' ? 'visible' : 'none'}
+      />
     </main>
   );
 };

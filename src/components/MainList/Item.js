@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LazyLoad, { forceCheck } from 'react-lazyload';
+import LazyLoad from 'react-lazyload';
 
 import Modal from '../Modal/Modal';
 
@@ -41,8 +41,6 @@ const Item = ({ type, item }) => {
         };
     }
   };
-
-  forceCheck();
 
   return (
     <React.Fragment>
