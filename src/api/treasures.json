@@ -643,5 +643,13 @@
     "skills": ["노란곰젤리 3,800점, 분홍곰젤리 5,700점 추가"],
     "imageURL": "candybox.png",
     "release": "2018-11-29"
+  },
+  {
+    "id": 69,
+    "name": "사과사탕 풍선",
+    "grade": "Epic",
+    "skills": ["젤리 525개 획득 시 풍선 생성, 꼬마 사탕 젤리 63,750점"],
+    "imageURL": "appleballon.png",
+    "release": "2020-04-29"
   }
 ]
