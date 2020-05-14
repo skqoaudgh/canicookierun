@@ -8,11 +8,26 @@ import icon_candy from '../../assets/icon/candy.svg';
 import icon_lock from '../../assets/icon/lock.svg';
 import icon_bonus from '../../assets/icon/bonus.svg';
 
-const Modal = ({ isOpen, type, partner, left, top }) => {
+const Modal = ({ isOpen, type, partner, bonus, left, top }) => {
   const style = {
     width: 20,
     height: 10,
     display: 'inline-block',
+  };
+
+  const styleByType = (type) => {
+    switch (type) {
+      case 'cookie':
+        return {
+          width: '60%',
+          height: '70%',
+        };
+      default:
+        return {
+          width: '50%',
+          height: '50%',
+        };
+    }
   };
 
   const container = useRef();
@@ -37,6 +52,7 @@ const Modal = ({ isOpen, type, partner, left, top }) => {
               <img
                 src={require(`../../assets/${type}/${partner.imageURL}`)}
                 alt={partner.name}
+                style={styleByType(type)}
               />
             </figure>
             <div className="infoWrapper">
@@ -94,7 +110,7 @@ const Modal = ({ isOpen, type, partner, left, top }) => {
                         alt="조합보너스"
                         title="조합보너스"
                       />
-                      {partner.bonus}
+                      {bonus}
                     </li>
                   </ul>
                 </div>

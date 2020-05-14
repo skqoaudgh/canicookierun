@@ -47,8 +47,9 @@ const Item = ({ type, item }) => {
       {type !== 'treasure' ? (
         <Modal
           isOpen={modalPosition[0] > 0}
-          type={type}
+          type={type === 'cookie' ? 'pet' : 'cookie'}
           partner={type === 'cookie' ? item.pet : item.cookie}
+          bonus={item.bonus}
           left={modalPosition[0]}
           top={modalPosition[1]}
         />
@@ -77,7 +78,7 @@ const Item = ({ type, item }) => {
                     <strong>{item.grade}</strong>
                   </div>
                 </div>
-                {item.partner && item.partner !== -1 ? (
+                {item.hasOwnProperty('partner') && item.partner !== -1 ? (
                   <span
                     className="partner"
                     onMouseEnter={handleMouseEnter}
