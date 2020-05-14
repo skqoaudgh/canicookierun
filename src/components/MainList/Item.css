@@ -135,12 +135,6 @@ li .item {
   width: 14px;
   height: 14px;
   margin-right: 5px;
-  opacity: 0;
-  transition: opacity 200ms ease-out 0s;
-}
-
-.info-detail li img.loaded {
-  opacity: 1;
 }
 
 .petSkills {
