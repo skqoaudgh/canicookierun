@@ -873,5 +873,13 @@
     "partner": 107,
     "skills": ["포인트(체력 회복, 점수 획득)"],
     "imageURL": "playblock.png"
+  },
+  {
+    "id": 107,
+    "name": "머랭뿔",
+    "grade": "Epic",
+    "partner": 108,
+    "skills": ["무지개 광선(장애물 파괴, 젤리 생성 및 획득)"],
+    "imageURL": "horn.png"
   }
 ]

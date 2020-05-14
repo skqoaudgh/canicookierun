@@ -1402,5 +1402,18 @@
     "unlockCondition": "없음",
     "imageURL": "cookieroid.png",
     "release": "2020-05-01"
+  },
+  {
+    "id": 108,
+    "name": "크림 유니콘 쿠키",
+    "grade": "Epic",
+    "partner": 107,
+    "bonus": "나비 젤리 점수 +550,000점",
+    "health": "176~290",
+    "skill": "유니콘",
+    "candySkill": "젤리 구름",
+    "unlockCondition": "없음",
+    "imageURL": "creamunicorn.png",
+    "release": "2020-05-14"
   }
 ]
