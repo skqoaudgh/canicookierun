@@ -10,7 +10,7 @@ const ListContextProvider = (props) => {
   const [type, setType] = useState('cookie');
   const [grade, setGrade] = useState('allGrade');
   const [search, setSearch] = useState('');
-  const [order, setOrder] = useState('release_asc');
+  const [order, setOrder] = useState('release_desc');
 
   const handleTypeChange = (event) => {
     setType(event.target.value);
