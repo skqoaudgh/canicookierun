@@ -651,5 +651,13 @@
     "skills": ["젤리 525개 획득 시 풍선 생성, 꼬마 사탕 젤리 63,750점"],
     "imageURL": "appleballon.png",
     "release": "2020-04-29"
+  },
+  {
+    "id": 69,
+    "name": "영웅의 작은 나무말",
+    "grade": "Epic",
+    "skills": ["20.2초마다 영혼마 소환, 달리는 동안 2,640,000점 획득"],
+    "imageURL": "herohorse.png",
+    "release": "2020-05-28"
   }
 ]
