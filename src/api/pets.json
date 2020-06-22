@@ -889,5 +889,13 @@
     "partner": 109,
     "skills": ["대추 물약 생성(이동속도 증가, 체력 회복)"],
     "imageURL": "teacup.png"
+  },
+  {
+    "id": 109,
+    "name": "죽순대감",
+    "grade": "Epic",
+    "partner": 110,
+    "skills": ["의뢰(엽전 꾸러미 젤리 생성)"],
+    "imageURL": "bamboo.png"
   }
 ]

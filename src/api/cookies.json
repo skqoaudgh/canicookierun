@@ -1428,5 +1428,18 @@
     "unlockCondition": "없음",
     "imageURL": "daechu.png",
     "release": "2020-05-28"
+  },
+  {
+    "id": 110,
+    "name": "대파맛 쿠키",
+    "grade": "Epic",
+    "partner": 109,
+    "bonus": "대나무 검객 퇴치점수 +1,250,000점",
+    "health": "182~308",
+    "skill": "대 파검술",
+    "candySkill": "3연속 베기",
+    "unlockCondition": "없음",
+    "imageURL": "greenonion.png",
+    "release": "2020-06-18"
   }
 ]
