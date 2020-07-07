@@ -897,5 +897,13 @@
     "partner": 110,
     "skills": ["의뢰(엽전 꾸러미 젤리 생성)"],
     "imageURL": "bamboo.png"
+  },
+  {
+    "id": 110,
+    "name": "세일러닻",
+    "grade": "Epic",
+    "partner": 111,
+    "skills": ["낙하(장애물 파괴, 낙하 점수 획득)"],
+    "imageURL": "anchor.png"
   }
 ]

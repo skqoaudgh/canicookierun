@@ -1441,5 +1441,18 @@
     "unlockCondition": "없음",
     "imageURL": "greenonion.png",
     "release": "2020-06-18"
+  },
+  {
+    "id": 111,
+    "name": "캡틴 아이스 쿠키",
+    "grade": "Epic",
+    "partner": 110,
+    "bonus": "얼음 파편 젤리 점수 +150,000점",
+    "health": "181~307",
+    "skill": "얼음 포탄",
+    "candySkill": "얼음 기운",
+    "unlockCondition": "없음",
+    "imageURL": "captain.png",
+    "release": "2020-06-30"
   }
 ]
